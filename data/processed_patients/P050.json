@@ -1,0 +1,100 @@
+{
+  "ledger": {
+    "patient_id": "P050",
+    "call1_status": "success",
+    "call2_status": "success",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P050",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:08:49.605657Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript ends with a coherent conclusion about the patient's perspective on his situation.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "no",
+        "name": null,
+        "reasoning": "GI wants to try biologics but lung doctor says too risky with COPD.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 62,
+          "evidence": "Victor, 62, male.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Victor, 62, male.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 0.66,
+          "evidence": "Diagnosed with Crohn's eight months ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started treatment with mesalamine. Nothing.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Tried prednisone but breathing got worse. Respiratory doctor said absolutely not.",
+          "certainty": "high"
+        },
+        {
+          "name": "budesonide",
+          "status": "currently_on",
+          "evidence": "Now on budesonide. Helps a little.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": {
+      "biologic_status_detail": {
+        "status": "explicitly_rejected",
+        "reasoning": "GI wants to try biologics but lung doctor says too risky with COPD.",
+        "certainty": "high"
+      },
+      "reasons": [
+        {
+          "category": "doctor_choice",
+          "evidence": "GI wants to try biologics but lung doctor says too risky with COPD.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call3": {
+      "pathway_endpoint": {
+        "status": "explicitly_rejected",
+        "reasoning": "GI wants to try biologics but lung doctor says too risky with COPD.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "General Practitioner",
+          "evidence": "Started with what I thought was stomach flu. But lasted months. Lost 50 pounds. Everyone thought cancer.",
+          "certainty": "medium"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "GI wants to try biologics but lung doctor says too risky with COPD.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

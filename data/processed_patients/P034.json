@@ -1,0 +1,104 @@
+{
+  "ledger": {
+    "patient_id": "P034",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P034",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:35.813682Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript provides a cohesive narrative from diagnosis through current status and future outlook without any abrupt ending.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Remicade",
+        "reasoning": "The patient states, \"Started Remicade year ago.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 61,
+          "evidence": "Robert, 61.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Doctor said IBS, common in older men.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 5.0,
+          "evidence": "Crohn's diagnosed five years ago but probably had it longer.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "Mesalamine",
+          "status": "stopped",
+          "evidence": "Mesalamine first. Minimal improvement.",
+          "certainty": "high"
+        },
+        {
+          "name": "Budesonide",
+          "status": "stopped",
+          "evidence": "Added budesonide. Helped temporarily. But long-term steroids not option at my age",
+          "certainty": "high"
+        },
+        {
+          "name": "Azathioprine",
+          "status": "stopped",
+          "evidence": "Tried azathioprine. Liver didn't like it. Stopped.",
+          "certainty": "high"
+        },
+        {
+          "name": "Methotrexate",
+          "status": "stopped",
+          "evidence": "Methotrexate next. The fatigue was unbearable... Couldn't function.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "currently_on",
+          "evidence": "Started Remicade year ago.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Started Remicade year ago.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Doctor",
+          "evidence": "Doctor said IBS, common in older men.",
+          "certainty": "high"
+        },
+        {
+          "name": "New doctor",
+          "evidence": "Changed doctors. New one said diverticulitis.",
+          "certainty": "high"
+        },
+        {
+          "name": "Third doctor",
+          "evidence": "Finally, third doctor ordered colonoscopy. Found Crohn's throughout colon and terminal ileum.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

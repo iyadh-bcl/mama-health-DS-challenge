@@ -1,0 +1,99 @@
+{
+  "ledger": {
+    "patient_id": "P041",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P041",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:41.983873Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript covers the patient's diagnostic history, past and current treatments, and present life situation, ending with a reflective summary.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Stelara",
+        "reasoning": "Currently on Stelara for Crohn's.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 35,
+          "evidence": "I'm Julie, 35.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female, also dealing with severe endometriosis",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 7.0,
+          "evidence": "35. Diagnosed with Crohn's at 28.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started me immediately on prednisone and mesalamine.",
+          "certainty": "high"
+        },
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started me immediately on prednisone and mesalamine.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Finally went on Remicade. Worked pretty well for about four years. Then it stopped working.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "currently_on",
+          "evidence": "Currently on Stelara for Crohn's.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "discussed",
+          "evidence": "Doctor wants to try combination therapy next. Stelara plus methotrexate.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Currently on Stelara for Crohn's.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "hospital",
+          "evidence": "Hospitalization led to diagnosis.",
+          "certainty": "high"
+        },
+        {
+          "name": "gastroenterologist",
+          "evidence": "Remember the GI saying my intestines looked like a war zone.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "ledger": {
+    "patient_id": "P024",
+    "call1_status": "success",
+    "call2_status": "success",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P024",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:56.280513Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The patient finishes their story with a reflective statement about hope, and the narrative flow concludes naturally.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "no",
+        "name": null,
+        "reasoning": "The patient states the doctor wants to try biologics but insurance is requiring them to fail other drugs first: 'Doctor wants to try biologics but insurance saying need to fail more drugs first.'",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 40,
+          "evidence": "Derek, 40",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, also pre-diabetic",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 0.25,
+          "evidence": "just diagnosed three months ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started mesalamine and prednisone. ... Mesalamine alone not enough.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Prednisone helped but blood sugar went crazy. ... Tapered off quick.",
+          "certainty": "high"
+        },
+        {
+          "name": "sulfasalazine",
+          "status": "currently_on",
+          "evidence": "Currently trying sulfasalazine.",
+          "certainty": "high"
+        },
+        {
+          "name": "biologics",
+          "status": "discussed",
+          "evidence": "Doctor wants to try biologics but insurance saying need to fail more drugs first.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": {
+      "biologic_status_detail": {
+        "status": "discussed_no_decision",
+        "reasoning": "Doctor wants to try biologics but insurance saying need to fail more drugs first.",
+        "certainty": "high"
+      },
+      "reasons": [
+        {
+          "category": "cost_insurance",
+          "evidence": "Doctor wants to try biologics but insurance saying need to fail more drugs first.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call3": {
+      "pathway_endpoint": {
+        "status": "churned",
+        "reasoning": "Doctor wants to try biologics but insurance saying need to fail more drugs first.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "new doctor",
+          "evidence": "Finally, new doctor took symptoms seriously.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

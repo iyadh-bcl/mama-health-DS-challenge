@@ -1,0 +1,94 @@
+{
+  "ledger": {
+    "patient_id": "P039",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P039",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:40.273725Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript concludes with a reflection on the patient's current mindset and future outlook without any signs of abrupt cutoff.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "The patient states: \"Switched to Humira three years ago. Helps somewhat.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 41,
+          "evidence": "Michelle, 41, dealing with Crohn's for about eight years.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female, divorced, single mom to teenage son.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 8.0,
+          "evidence": "Michelle, 41, dealing with Crohn's for about eight years.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started mesalamine. Minimal help.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Added prednisone for flares. Weight gain horrible.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "stopped",
+          "evidence": "Started methotrexate. Hair fell out.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Switched to Humira three years ago. Helps somewhat.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "discussed",
+          "evidence": "Looking at switching to Stelara. Might help both conditions.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "The patient states: \"Switched to Humira three years ago. Helps somewhat.\"",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "GI",
+          "evidence": "Finally saw GI.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

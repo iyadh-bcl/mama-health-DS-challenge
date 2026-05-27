@@ -1,0 +1,118 @@
+{
+  "ledger": {
+    "patient_id": "P004",
+    "call1_status": "success",
+    "call2_status": "success",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P004",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:05:35.811838Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript provides a cohesive narrative from diagnosis through current struggles and future considerations without an abrupt cutoff.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "no",
+        "name": null,
+        "reasoning": "The patient states: \"Now he wants me on a biologic, recommended Entyvio... The problem is I'm self-employed... That's impossible.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 55,
+          "evidence": "Robert here, 55 years old",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, also dealing with hypertension and high cholesterol.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 0.5,
+          "evidence": "just diagnosed with Crohn's six months ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started me on prednisone immediately, which helped, but he said it's not a long-term solution.",
+          "certainty": "high"
+        },
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Tried mesalamine next, minimal improvement.",
+          "certainty": "high"
+        },
+        {
+          "name": "sulfasalazine",
+          "status": "stopped",
+          "evidence": "Then sulfasalazine, which gave me terrible headaches.",
+          "certainty": "high"
+        },
+        {
+          "name": "Entyvio",
+          "status": "discussed",
+          "evidence": "Now he wants me on a biologic, recommended Entyvio.",
+          "certainty": "high"
+        },
+        {
+          "name": "budesonide",
+          "status": "currently_on",
+          "evidence": "I've been trying to manage with diet changes and budesonide, but I know it's not enough.",
+          "certainty": "high"
+        },
+        {
+          "name": "tramadol",
+          "status": "currently_on",
+          "evidence": "Taking tramadol occasionally, but worried about dependency.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": {
+      "biologic_status_detail": {
+        "status": "explicitly_rejected",
+        "reasoning": "The patient explicitly states that the recommended biologic, Entyvio, is financially impossible due to his insurance coverage and cost.",
+        "certainty": "high"
+      },
+      "reasons": [
+        {
+          "category": "cost_insurance",
+          "evidence": "The problem is I'm self-employed, my insurance is catastrophic coverage only. The medication would cost me $5,000 per infusion, every 8 weeks. That's impossible.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call3": {
+      "pathway_endpoint": {
+        "status": "explicitly_rejected",
+        "reasoning": "The patient states: \"Now he wants me on a biologic, recommended Entyvio... The medication would cost me $5,000 per infusion, every 8 weeks. That's impossible.\"",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Emergency room",
+          "evidence": "Emergency room visit led to CT scan showing significant inflammation.",
+          "certainty": "high"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "They referred me to a GI specialist, took two months to get in. Dr. Williams did a colonoscopy and confirmed Crohn's disease",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

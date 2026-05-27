@@ -1,0 +1,106 @@
+{
+  "ledger": {
+    "patient_id": "P020",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P020",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:48.816720Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript provides a full narrative of the patient's history, current struggles, and concludes with a reflection on his condition.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "The patient explicitly states, 'Been on Humira three years now.'",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 46,
+          "evidence": "Gary, 46, diagnosed with Crohn's",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Embarrassing for a grown man.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 7.0,
+          "evidence": "diagnosed with Crohn's about seven years ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started on prednisone and mesalamine. Prednisone made me rage. Almost lost my job from snapping at supervisor. Got off that quick.",
+          "certainty": "high"
+        },
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Mesalamine didn't do much alone.",
+          "certainty": "high"
+        },
+        {
+          "name": "sulfasalazine",
+          "status": "stopped",
+          "evidence": "Tried sulfasalazine, gave me killer headaches.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "stopped",
+          "evidence": "Then methotrexate, made me so nauseous I couldn't work.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Then stopped working completely. Switched to Humira.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Been on Humira three years now.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "discussed",
+          "evidence": "Doc mentioned Stelara next.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Been on Humira three years now.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "doctor",
+          "evidence": "Wife finally made me see doctor when I dropped 20 pounds.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

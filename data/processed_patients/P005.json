@@ -1,0 +1,99 @@
+{
+  "ledger": {
+    "patient_id": "P005",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P005",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:05:36.588605Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The patient finishes their reflection on the challenges of living with Crohn's and their outlook on the future without an abrupt ending.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "Been stable on Humira for two years now",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 31,
+          "evidence": "Lisa, 31, female",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Lisa, 31, female",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 5.0,
+          "evidence": "diagnosed with Crohn's five years ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started with conventional therapy - mesalamine and brief prednisone. Helped initially, but symptoms returned within months.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started with conventional therapy - mesalamine and brief prednisone.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "stopped",
+          "evidence": "Tried immunomodulators next, azathioprine specifically. Developed pancreatitis... That's when we moved to biologics.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Started Remicade, but the infusion center was an hour away... Switched to Humira",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Been stable on Humira for two years now",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Been stable on Humira for two years now",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "General practitioner",
+          "evidence": "doctors kept dismissing my symptoms as period-related or stress",
+          "certainty": "medium"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "Finally, a female GI doctor took me seriously and ordered proper testing.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

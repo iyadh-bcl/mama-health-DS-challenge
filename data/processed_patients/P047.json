@@ -1,0 +1,94 @@
+{
+  "ledger": {
+    "patient_id": "P047",
+    "call1_status": "success",
+    "call2_status": "success",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P047",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:08:17.115896Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "heavily_truncated",
+        "reasoning": "The transcript ends abruptly in the middle of a sentence about the patient's children.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "no",
+        "name": null,
+        "reasoning": "The patient mentions taking prednisone, mesalamine, and methotrexate, but none of these are biologics.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 41,
+          "evidence": "Donna, 41, female.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Donna, 41, female.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 0.416,
+          "evidence": "Diagnosed with Crohn's five months ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started on prednisone and mesalamine. Prednisone helped but gain 30 pounds in two months.",
+          "certainty": "high"
+        },
+        {
+          "name": "mesalamine",
+          "status": "currently_on",
+          "evidence": "Started on prednisone and mesalamine.",
+          "certainty": "medium"
+        },
+        {
+          "name": "methotrexate",
+          "status": "currently_on",
+          "evidence": "Trying methotrexate now.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": {
+      "biologic_status_detail": {
+        "status": "not_mentioned",
+        "reasoning": "The transcript discusses the patient's use of prednisone, mesalamine, and methotrexate, but there is no mention of biologics being discussed by the patient or their doctor.",
+        "certainty": "high"
+      },
+      "reasons": null
+    },
+    "call3": {
+      "pathway_endpoint": {
+        "status": "discussed_no_decision",
+        "reasoning": "The patient is currently on methotrexate and the doctor says to give it more time, with no mention of initiating a biologic.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "General practitioner or non-specialist",
+          "evidence": "Spent three years being told it was IBS, stress, hormones, everything but actual problem.",
+          "certainty": "medium"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "Finally got to good GI who actually listened.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

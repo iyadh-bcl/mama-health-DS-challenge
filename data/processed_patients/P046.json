@@ -1,0 +1,82 @@
+{
+  "ledger": {
+    "patient_id": "P046",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P046",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:46.395851Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript ends with a complete thought regarding the financial burden of his insurance and treatment, showing no signs of abrupt termination.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "The patient explicitly states, 'Currently on Humira.'",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 49,
+          "evidence": "Ben, 49, male.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Ben, 49, male.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 1.5,
+          "evidence": "Crohn's diagnosis came eighteen months ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "Prednisone",
+          "status": "stopped",
+          "evidence": "Prednisone made blood sugar go haywire.",
+          "certainty": "high"
+        },
+        {
+          "name": "Mesalamine",
+          "status": "stopped",
+          "evidence": "Mesalamine didn't touch it.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Currently on Humira.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Currently on Humira.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "doctor",
+          "evidence": "Finally, wife forced me to see doctor after finding blood in toilet.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

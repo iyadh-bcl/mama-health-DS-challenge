@@ -1,0 +1,99 @@
+{
+  "ledger": {
+    "patient_id": "P031",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P031",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:02.667424Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript concludes with the patient reflecting on her life philosophy and future outlook, indicating a natural end to the conversation.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Stelara",
+        "reasoning": "The patient explicitly states, \"Started Stelara after cancer treatment.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 46,
+          "evidence": "Patricia, 46, Crohn's for fifteen years.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "I'm not the woman he married.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 15.0,
+          "evidence": "Patricia, 46, Crohn's for fifteen years.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "Mesalamine",
+          "status": "stopped",
+          "evidence": "Started standard treatment. Mesalamine, prednisone for flares.",
+          "certainty": "high"
+        },
+        {
+          "name": "Prednisone",
+          "status": "stopped",
+          "evidence": "Started standard treatment. Mesalamine, prednisone for flares.",
+          "certainty": "high"
+        },
+        {
+          "name": "Cymbalta",
+          "status": "currently_on",
+          "evidence": "Cymbalta for fibro, continuing Crohn's treatment.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Moved to biologics seven years ago. Remicade first. Worked well for three years. Then cancer diagnosis.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "currently_on",
+          "evidence": "Started Stelara after cancer treatment.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Started Stelara after cancer treatment.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "General practitioner",
+          "evidence": "Started with presumed stomach flu that wouldn't resolve. Six months of misdiagnosis before finally getting colonoscopy.",
+          "certainty": "medium"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "Moderate to severe Crohn's throughout. Started standard treatment.",
+          "certainty": "medium"
+        }
+      ]
+    }
+  }
+}

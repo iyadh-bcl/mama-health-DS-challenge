@@ -1,0 +1,112 @@
+{
+  "ledger": {
+    "patient_id": "P045",
+    "call1_status": "success",
+    "call2_status": "success",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P045",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:45.509258Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "likely_truncated",
+        "reasoning": "The transcript ends with an ellipses following a sentence about the future, suggesting the conversation was interrupted or concluded abruptly.",
+        "certainty": "medium"
+      },
+      "biologic_status": {
+        "on_biologic": "no",
+        "name": null,
+        "reasoning": "Doctor mentioned biologics might be next step but insurance wants me to fail more medications first.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 33,
+          "evidence": "Rosa here, 33 years old.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female, also have PCOS and insulin resistance.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 0.33,
+          "evidence": "Got diagnosed with Crohn's about four months ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "budesonide",
+          "status": "stopped",
+          "evidence": "Started on budesonide and mesalamine. Some improvement but not much.",
+          "certainty": "medium"
+        },
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started on budesonide and mesalamine. Some improvement but not much.",
+          "certainty": "medium"
+        },
+        {
+          "name": "biologics",
+          "status": "discussed",
+          "evidence": "Doctor mentioned biologics might be next step but insurance wants me to fail more medications first.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "currently_on",
+          "evidence": "Currently trying methotrexate.",
+          "certainty": "high"
+        },
+        {
+          "name": "folic acid",
+          "status": "currently_on",
+          "evidence": "Taking folic acid helps a bit.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": {
+      "biologic_status_detail": {
+        "status": "discussed_no_decision",
+        "reasoning": "The patient states that the doctor mentioned biologics might be the next step, but insurance requires failing more medications first.",
+        "certainty": "high"
+      },
+      "reasons": [
+        {
+          "category": "cost_insurance",
+          "evidence": "Doctor mentioned biologics might be next step but insurance wants me to fail more medications first.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call3": {
+      "pathway_endpoint": {
+        "status": "discussed_no_decision",
+        "reasoning": "Doctor mentioned biologics might be next step but insurance wants me to fail more medications first.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "General Physician",
+          "evidence": "Doctors kept blaming everything on my weight.",
+          "certainty": "medium"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "Finally demanded colonoscopy. Found inflammation in terminal ileum and ascending colon.",
+          "certainty": "medium"
+        }
+      ]
+    }
+  }
+}

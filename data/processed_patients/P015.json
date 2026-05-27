@@ -1,0 +1,117 @@
+{
+  "ledger": {
+    "patient_id": "P015",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P015",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:12.122878Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The patient provides a comprehensive overview of her history, current treatment, and future outlook without any indication of a cutoff.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Stelara",
+        "reasoning": "The patient states, \"Finally got approved for Stelara. Been on it two years.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 37,
+          "evidence": "My name is Caroline, I'm 37 years old",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "I'm a single mom to two kids",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 15.0,
+          "evidence": "been dealing with Crohn's disease for almost 15 years now.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started on prednisone and mesalamine right away. The prednisone was horrible - gained 30 pounds, couldn't sleep, mood swings that scared me. But it did calm the inflammation.",
+          "certainty": "high"
+        },
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Tried to maintain on just mesalamine but within three months I was flaring again.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "stopped",
+          "evidence": "Added azathioprine. Worked for about a year until I developed severe joint pain. ... had to stop the medication.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Started Remicade when I was 24. ... Then during my second pregnancy, it stopped working.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "stopped",
+          "evidence": "After delivery, started Humira. ... Humira worked for three years. ... When Humira failed, tried Cimzia.",
+          "certainty": "high"
+        },
+        {
+          "name": "Cimzia",
+          "status": "rejected",
+          "evidence": "When Humira failed, tried Cimzia. Insurance denied it three times.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "currently_on",
+          "evidence": "Finally got approved for Stelara. Been on it two years.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "discussed",
+          "evidence": "Doctor mentioned combination therapy next - adding methotrexate to Stelara.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Finally got approved for Stelara. Been on it two years.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "doctor",
+          "evidence": "When I finally saw a doctor, she said IBS and gave me fiber supplements.",
+          "certainty": "high"
+        },
+        {
+          "name": "GI doctor",
+          "evidence": "After six months of increasing pain and weight loss, I demanded a referral to a specialist. The GI doctor ordered a colonoscopy immediately.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

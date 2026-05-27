@@ -1,0 +1,102 @@
+{
+  "mesalamine": {
+    "canonical_name": "mesalamine (5-ASA)",
+    "drug_class": "Aminosalicylate (5-ASA)"
+  },
+  "sulfasalazine": {
+    "canonical_name": "sulfasalazine",
+    "drug_class": "Aminosalicylate (5-ASA)"
+  },
+  "prednisone": {
+    "canonical_name": "prednisone",
+    "drug_class": "Corticosteroid"
+  },
+  "budesonide": {
+    "canonical_name": "budesonide",
+    "drug_class": "Corticosteroid"
+  },
+  "methotrexate": {
+    "canonical_name": "methotrexate (MTX)",
+    "drug_class": "Immunomodulator"
+  },
+  "azathioprine": {
+    "canonical_name": "azathioprine (AZA)",
+    "drug_class": "Immunomodulator"
+  },
+  "6-mp": {
+    "canonical_name": "mercaptopurine (6-MP)",
+    "drug_class": "Immunomodulator"
+  },
+  "hydroxychloroquine": {
+    "canonical_name": "hydroxychloroquine",
+    "drug_class": "Immunomodulator"
+  },
+  "humira": {
+    "canonical_name": "adalimumab (Humira)",
+    "drug_class": "Biologic"
+  },
+  "remicade": {
+    "canonical_name": "infliximab (Remicade)",
+    "drug_class": "Biologic"
+  },
+  "stelara": {
+    "canonical_name": "ustekinumab (Stelara)",
+    "drug_class": "Biologic"
+  },
+  "entyvio": {
+    "canonical_name": "vedolizumab (Entyvio)",
+    "drug_class": "Biologic"
+  },
+  "cimzia": {
+    "canonical_name": "certolizumab pegol (Cimzia)",
+    "drug_class": "Biologic"
+  },
+  "biologics": {
+    "canonical_name": "biologic (unspecified)",
+    "drug_class": "Biologic"
+  },
+  "antibiotics": {
+    "canonical_name": "antibiotic (unspecified)",
+    "drug_class": "Antibiotic"
+  },
+  "iron supplements": {
+    "canonical_name": "iron supplementation",
+    "drug_class": "Supplement / probiotic"
+  },
+  "fiber supplements": {
+    "canonical_name": "dietary fibre supplement",
+    "drug_class": "Supplement / probiotic"
+  },
+  "folic acid": {
+    "canonical_name": "folic acid (folate)",
+    "drug_class": "Supplement / probiotic"
+  },
+  "tramadol": {
+    "canonical_name": "tramadol",
+    "drug_class": "Adjunct / symptom management"
+  },
+  "antispasmodics": {
+    "canonical_name": "antispasmodic (unspecified)",
+    "drug_class": "Adjunct / symptom management"
+  },
+  "cymbalta": {
+    "canonical_name": "duloxetine (Cymbalta)",
+    "drug_class": "Adjunct / symptom management"
+  },
+  "nsaids": {
+    "canonical_name": "NSAIDs (unspecified)",
+    "drug_class": "Adjunct / symptom management"
+  },
+  "lamotrigine": {
+    "canonical_name": "lamotrigine",
+    "drug_class": "Other"
+  },
+  "ursodiol": {
+    "canonical_name": "ursodeoxycholic acid (UDCA)",
+    "drug_class": "Other"
+  },
+  "clinical trial drug": {
+    "canonical_name": "investigational agent (unspecified)",
+    "drug_class": "Other"
+  }
+}

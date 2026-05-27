@@ -1,0 +1,82 @@
+{
+  "ledger": {
+    "patient_id": "P036",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P036",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:37.299499Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The patient finishes their narrative about their current medical and life situation without an abrupt cutoff.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Stelara",
+        "reasoning": "The patient states, \"Started on Stelara, which I hadn't tried before.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 48,
+          "evidence": "William, 48,",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, also have severe psoriasis",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 3.0,
+          "evidence": "diagnosed with Crohn's three years ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "NSAIDs",
+          "status": "stopped",
+          "evidence": "Spent two years trying different NSAIDs, which probably made everything worse.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "currently_on",
+          "evidence": "Started on Stelara, which I hadn't tried before. Helped both conditions somewhat.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "discussed",
+          "evidence": "Doctor wants to add methotrexate to Stelara.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Started on Stelara, which I hadn't tried before.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "doctor",
+          "evidence": "When I started having GI issues, doctors thought it was related to my arthritis meds.",
+          "certainty": "medium"
+        }
+      ]
+    }
+  }
+}

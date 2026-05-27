@@ -1,0 +1,104 @@
+{
+  "ledger": {
+    "patient_id": "P011",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P011",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:07.952635Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The patient finishes her narrative by summarizing her current outlook and life situation without any abrupt cutoff.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "The patient states: \"Switched to Humira. The every-two-week injection is manageable.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 26,
+          "evidence": "Jessica, 26, female",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Jessica, 26, female",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 7.0,
+          "evidence": "diagnosed with Crohn's at 19.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started on prednisone... Tapered off prednisone",
+          "certainty": "high"
+        },
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started on prednisone and mesalamine... tried to maintain on mesalamine alone. Lasted six months before major flare.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "stopped",
+          "evidence": "Started methotrexate. The weekly injections became my Friday night ritual. Worked okay for a while.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Started Remicade after surgery. Game-changer initially... But after 18 months, developed antibodies.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Switched to Humira. The every-two-week injection is manageable.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Switched to Humira. The every-two-week injection is manageable.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Health center",
+          "evidence": "Health center said stress, normal for new students.",
+          "certainty": "high"
+        },
+        {
+          "name": "family doctor",
+          "evidence": "Finally went home and saw family doctor.",
+          "certainty": "high"
+        },
+        {
+          "name": "GI specialist",
+          "evidence": "He immediately sent me to GI specialist.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

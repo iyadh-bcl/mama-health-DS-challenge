@@ -1,0 +1,93 @@
+{
+  "ledger": {
+    "patient_id": "P025",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P025",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:57.210270Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript covers the patient's diagnostic journey and current treatment status in a coherent narrative that reaches a natural conclusion.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "The patient explicitly states, \"Started Humira two months ago.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 22,
+          "evidence": "I'm Sophie, 22",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female, also have severe anxiety",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 0.5,
+          "evidence": "just diagnosed six months ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "Prednisone",
+          "status": "stopped",
+          "evidence": "Started treatment immediately. Prednisone and mesalamine. Prednisone caused mood swings. With anxiety already bad, was unbearable. Tapered quickly.",
+          "certainty": "high"
+        },
+        {
+          "name": "Mesalamine",
+          "status": "stopped",
+          "evidence": "Mesalamine helped little.",
+          "certainty": "high"
+        },
+        {
+          "name": "Methotrexate",
+          "status": "stopped",
+          "evidence": "Finally started methotrexate. Nausea terrible. Lost more weight. ... Methotrexate not enough.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Started Humira two months ago.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Started Humira two months ago.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Emergency Room physician",
+          "evidence": "Went to ER. They took seriously.",
+          "certainty": "high"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "GI consult. Colonoscopy confirmed Crohn's.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

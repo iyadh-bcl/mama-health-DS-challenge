@@ -1,0 +1,111 @@
+{
+  "ledger": {
+    "patient_id": "P044",
+    "call1_status": "success",
+    "call2_status": "success",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P044",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:44.509765Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript ends with the patient reflecting on their current state of mind and does not appear to cut off mid-sentence.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "no",
+        "name": null,
+        "reasoning": "Doctor wants to try biologics but I'm terrified.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 27,
+          "evidence": "Peter, 27, diagnosed two years ago",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, also ADHD and anxiety.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 2.0,
+          "evidence": "diagnosed two years ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started mesalamine suppositories and oral. Awkward and minimal help.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Added prednisone. Energy through roof but anxiety went crazy.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "currently_on",
+          "evidence": "Started azathioprine six months ago. Helps maybe 40%.",
+          "certainty": "high"
+        },
+        {
+          "name": "biologics",
+          "status": "discussed",
+          "evidence": "Doctor wants to try biologics but I'm terrified.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": {
+      "biologic_status_detail": {
+        "status": "discussed_no_decision",
+        "reasoning": "The doctor has proposed biologics, but the patient remains hesitant and has not yet committed to starting them, stating: 'Doctor wants to try biologics but I'm terrified.'",
+        "certainty": "high"
+      },
+      "reasons": [
+        {
+          "category": "patient_fear",
+          "evidence": "Already immunocompromised enough with stress and lack of sleep. What if I get sick and miss more work?",
+          "certainty": "high"
+        },
+        {
+          "category": "patient_fear",
+          "evidence": "Plus, needles trigger anxiety. Bad.",
+          "certainty": "high"
+        },
+        {
+          "category": "patient_fear",
+          "evidence": "What if makes worse? What if doesn't work?",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call3": {
+      "pathway_endpoint": {
+        "status": "discussed_no_decision",
+        "reasoning": "Doctor wants to try biologics but I'm terrified.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Gastroenterologist",
+          "evidence": "Finally saw GI after particularly bad week where I couldn't leave apartment.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

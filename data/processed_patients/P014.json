@@ -1,0 +1,93 @@
+{
+  "ledger": {
+    "patient_id": "P014",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P014",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:11.005261Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript covers the patient's diagnostic journey, current treatments, daily impact, and emotional state in a coherent manner without signs of premature cutoff.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Stelara",
+        "reasoning": "The patient explicitly states, \"Switched to biologic that could treat both conditions. Started Stelara.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 41,
+          "evidence": "Brian, 41, male.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Brian, 41, male.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 3.0,
+          "evidence": "Crohn's diagnosed three years ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "antispasmodics",
+          "status": "stopped",
+          "evidence": "First GI saw said IBS, gave me antispasmodics. Useless.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "stopped",
+          "evidence": "Already on methotrexate for psoriasis, doctor hoped would help Crohn's too. Didn't.",
+          "certainty": "high"
+        },
+        {
+          "name": "sulfasalazine",
+          "status": "stopped",
+          "evidence": "Added sulfasalazine, allergic reaction. Hives everywhere. Miserable.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "currently_on",
+          "evidence": "Started Stelara. ... Stelara helping both conditions somewhat.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Switched to biologic that could treat both conditions. Started Stelara.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "General Practitioner",
+          "evidence": "First GI saw said IBS, gave me antispasmodics.",
+          "certainty": "medium"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "Second opinion led to proper testing. Colonoscopy showed patchy inflammation throughout. Classic Crohn's.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "ledger": {
+    "patient_id": "P018",
+    "call1_status": "success",
+    "call2_status": "success",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P018",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:47.073969Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript ends with the patient discussing his upcoming appointment and personal reflections, indicating a full narrative.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "no",
+        "name": null,
+        "reasoning": "The patient explicitly states he is hesitant and has not started them yet: \"GI doctor wants to try biologics but I'm hesitant.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 58,
+          "evidence": "Richard here, 58 years old.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, already dealing with type 2 diabetes",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 0.5,
+          "evidence": "Just got hit with this Crohn's diagnosis six months ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started me on prednisone first... Tried mesalamine after tapering prednisone.",
+          "certainty": "high"
+        },
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Tried mesalamine after tapering prednisone. Didn't do much.",
+          "certainty": "high"
+        },
+        {
+          "name": "budesonide",
+          "status": "currently_on",
+          "evidence": "Now on something called budesonide.",
+          "certainty": "high"
+        },
+        {
+          "name": "biologics",
+          "status": "discussed",
+          "evidence": "GI doctor wants to try biologics but I'm hesitant.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": {
+      "biologic_status_detail": {
+        "status": "discussed_no_decision",
+        "reasoning": "The patient's GI doctor has proposed starting biologics, but the patient remains hesitant and a final decision has been deferred to the next appointment.",
+        "certainty": "high"
+      },
+      "reasons": [
+        {
+          "category": "patient_fear",
+          "evidence": "Adding immunosuppressants seems risky. What if I get sick? I help watch my grandkids twice a week. They're walking petri dishes.",
+          "certainty": "high"
+        },
+        {
+          "category": "cost_insurance",
+          "evidence": "But these biologics, the cost alone is staggering. We're on Medicare. Coverage is complicated. Donut hole, prior authorizations.",
+          "certainty": "high"
+        },
+        {
+          "category": "doctor_choice",
+          "evidence": "GI doctor wants to try biologics but I'm hesitant. Already on so many meds.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call3": {
+      "pathway_endpoint": {
+        "status": "discussed_no_decision",
+        "reasoning": "GI doctor wants to try biologics but I'm hesitant.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Gastroenterologist",
+          "evidence": "GI doctor wants to try biologics but I'm hesitant.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

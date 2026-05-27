@@ -1,0 +1,190 @@
+[
+{
+  "patient_id": "P004",
+  "completeness": "complete",
+  "on_biologic": "no",
+  "biologic_name": null,
+  "age": 55,
+  "sex": "male",
+  "years_with_crohns": 0.5,
+  "treatment_journey": [
+    { "name": "prednisone", "status": "stopped" },
+    { "name": "mesalamine", "status": "stopped" },
+    { "name": "sulfasalazine", "status": "stopped" },
+    { "name": "budesonide", "status": "currently_on" },
+    { "name": "tramadol", "status": "currently_on" },
+    { "name": "Entyvio", "status": "rejected" }
+  ],
+  "biologic_status_detail": "explicitly_rejected",
+  "barrier_categories": ["cost_insurance"],
+  "referral_pathway": ["Emergency", "Gastroenterologist"],
+  "pathway_endpoint": "explicitly_rejected"
+},
+{
+  "patient_id": "P005",
+  "completeness": "complete",
+  "on_biologic": "yes",
+  "biologic_name": "Humira",
+  "age": 31,
+  "sex": "female",
+  "years_with_crohns": 5.0,
+  "treatment_journey": [
+    { "name": "mesalamine", "status": "stopped" },
+    { "name": "prednisone", "status": "stopped" },
+    { "name": "azathioprine", "status": "stopped" },
+    { "name": "Remicade", "status": "stopped" },
+    { "name": "Humira", "status": "currently_on" }
+  ],
+  "biologic_status_detail": null,
+  "barrier_categories": null,
+  "referral_pathway": ["Gastroenterologist"],
+  "pathway_endpoint": "on_biologic"
+},
+{
+  "patient_id": "P010",
+  "completeness": "complete",
+  "on_biologic": "yes",
+  "biologic_name": "Humira",
+  "age": 48,
+  "sex": "male",
+  "years_with_crohns": 5.0,
+  "treatment_journey": [
+    { "name": "prednisone", "status": "stopped" },
+    { "name": "mesalamine", "status": "stopped" },
+    { "name": "azathioprine", "status": "stopped" },
+    { "name": "methotrexate", "status": "stopped" },
+    { "name": "Humira", "status": "currently_on" },
+    { "name": "Stelara", "status": "discussed" }
+  ],
+  "biologic_status_detail": null,
+  "barrier_categories": null,
+  "referral_pathway": ["GP", "Gastroenterologist"],
+  "pathway_endpoint": "on_biologic"
+},
+{
+  "patient_id": "P020",
+  "completeness": "complete",
+  "on_biologic": "yes",
+  "biologic_name": "Humira",
+  "age": 46,
+  "sex": "male",
+  "years_with_crohns": 7.0,
+  "treatment_journey": [
+    { "name": "prednisone", "status": "stopped" },
+    { "name": "mesalamine", "status": "stopped" },
+    { "name": "sulfasalazine", "status": "stopped" },
+    { "name": "methotrexate", "status": "stopped" },
+    { "name": "Remicade", "status": "stopped" },
+    { "name": "Humira", "status": "currently_on" },
+    { "name": "Stelara", "status": "discussed" }
+  ],
+  "biologic_status_detail": null,
+  "barrier_categories": null,
+  "referral_pathway": ["GP", "Gastroenterologist"],
+  "pathway_endpoint": "on_biologic"
+},
+{
+  "patient_id": "P029",
+  "completeness": "complete",
+  "on_biologic": "yes",
+  "biologic_name": "Stelara",
+  "age": 38,
+  "sex": "female",
+  "years_with_crohns": 12.0,
+  "treatment_journey": [
+    { "name": "mesalamine", "status": "stopped" },
+    { "name": "prednisone", "status": "stopped" },
+    { "name": "azathioprine", "status": "stopped" },
+    { "name": "methotrexate", "status": "stopped" },
+    { "name": "Remicade", "status": "stopped" },
+    { "name": "Humira", "status": "stopped" },
+    { "name": "Stelara", "status": "currently_on" },
+    { "name": "combo therapy (Stelara + adjunct)", "status": "discussed" },
+    { "name": "fecal microbiota transplant trials", "status": "discussed" }
+  ],
+  "biologic_status_detail": null,
+  "barrier_categories": null,
+  "referral_pathway": ["Gastroenterologist"],
+  "pathway_endpoint": "on_biologic"
+},
+{
+  "patient_id": "P047",
+  "completeness": "heavily_truncated",
+  "on_biologic": "no",
+  "biologic_name": null,
+  "age": 41,
+  "sex": "female",
+  "years_with_crohns": 0.416,
+  "treatment_journey": [
+    { "name": "prednisone", "status": "stopped" },
+    { "name": "mesalamine", "status": "discussed" },
+    { "name": "methotrexate", "status": "currently_on" }
+  ],
+  "biologic_status_detail": "not_reached",
+  "barrier_categories": null,
+  "referral_pathway": ["GP","Gastroenterologist"],
+  "pathway_endpoint": "not_reached"
+},
+{
+  "patient_id": "P033",
+  "completeness": "complete",
+  "on_biologic": "yes",
+  "biologic_name": "Stelara",
+  "age": 26,
+  "sex": "female",
+  "years_with_crohns": 7.0,
+  "treatment_journey": [
+    { "name": "mesalamine", "status": "stopped" },
+    { "name": "prednisone", "status": "stopped" },
+    { "name": "methotrexate", "status": "stopped" },
+    { "name": "Humira", "status": "stopped" },
+    { "name": "Stelara", "status": "currently_on" }
+  ],
+  "biologic_status_detail": null,
+  "barrier_categories": null,
+  "referral_pathway": ["Health Center", "Gastroenterologist"],
+  "pathway_endpoint": "on_biologic"
+},
+{
+  "patient_id": "P034",
+  "completeness": "complete",
+  "on_biologic": "yes",
+  "biologic_name": "Remicade",
+  "age": 61,
+  "sex": "male",
+  "years_with_crohns": 5.0,
+  "treatment_journey": [
+    { "name": "mesalamine", "status": "stopped" },
+    { "name": "budesonide", "status": "stopped" },
+    { "name": "azathioprine", "status": "stopped" },
+    { "name": "methotrexate", "status": "stopped" },
+    { "name": "Remicade", "status": "currently_on" },
+    { "name": "immunomodulator", "status": "discussed" }
+  ],
+  "biologic_status_detail": null,
+  "barrier_categories": null,
+  "referral_pathway": ["GP", "GP", "GP"],
+  "pathway_endpoint": "on_biologic"
+},
+{
+  "patient_id": "P040",
+  "completeness": "complete",
+  "on_biologic": "yes",
+  "biologic_name": "Humira",
+  "age": 52,
+  "sex": "male",
+  "years_with_crohns": 7.0,
+  "treatment_journey": [
+    { "name": "prednisone", "status": "stopped" },
+    { "name": "azathioprine", "status": "stopped" },
+    { "name": "Remicade", "status": "stopped" },
+    { "name": "Humira", "status": "currently_on" },
+    { "name": "methotrexate", "status": "discussed" },
+    { "name": "clinical trial drug", "status": "discussed" }
+  ],
+  "biologic_status_detail": null,
+  "barrier_categories": null,
+  "referral_pathway": ["GP", "Gastroenterologist"],
+  "pathway_endpoint": "on_biologic"
+}
+]

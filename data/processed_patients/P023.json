@@ -1,0 +1,110 @@
+{
+  "ledger": {
+    "patient_id": "P023",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P023",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:51.899797Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript reaches a natural conclusion with a reflective summary about the patient's life and outlook.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "Finally approved for Humira.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 27,
+          "evidence": "Monica, 27, diagnosed last year",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female, also have PCOS and depression.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 1.0,
+          "evidence": "diagnosed last year",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "fiber supplements",
+          "status": "rejected",
+          "evidence": "Gave me fiber supplements, made worse.",
+          "certainty": "high"
+        },
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started mesalamine. Minimal help.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Added prednisone for flare. Gained all weight back plus more.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "stopped",
+          "evidence": "Tried azathioprine. Developed pancreatitis.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "stopped",
+          "evidence": "Tried methotrexate. Nausea unbearable.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Humira helping some. Maybe 40% better.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Finally approved for Humira.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "campus health",
+          "evidence": "Campus health said stress, IBS.",
+          "certainty": "high"
+        },
+        {
+          "name": "primary doctor",
+          "evidence": "Primary doctor blamed weight.",
+          "certainty": "high"
+        },
+        {
+          "name": "gastroenterologist",
+          "evidence": "Finally demanded specialist referral. GI ordered colonoscopy.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

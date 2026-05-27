@@ -1,0 +1,100 @@
+{
+  "ledger": {
+    "patient_id": "P035",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P035",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:36.280891Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The patient provides a comprehensive account of her history, current challenges, and future outlook without any abrupt cutoff.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Entyvio",
+        "reasoning": "The patient states: \"Entyvio for Crohn's since it's supposedly liver-safe.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 30,
+          "evidence": "Ashley, 30.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female, also have primary sclerosing cholangitis and autoimmune hepatitis.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 14.0,
+          "evidence": "Diagnosed with Crohn's at 16... Ashley, 30.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started mesalamine and prednisone. ... Stopped everything.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "currently_on",
+          "evidence": "Prednisone and azathioprine for autoimmune hepatitis.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Started Remicade at 17. Worked well for several years. ... Stopped everything.",
+          "certainty": "high"
+        },
+        {
+          "name": "Ursodiol",
+          "status": "currently_on",
+          "evidence": "Ursodiol for PSC.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "currently_on",
+          "evidence": "Prednisone and azathioprine for autoimmune hepatitis.",
+          "certainty": "high"
+        },
+        {
+          "name": "Entyvio",
+          "status": "currently_on",
+          "evidence": "Entyvio for Crohn's since it's supposedly liver-safe.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Entyvio for Crohn's since it's supposedly liver-safe.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "pediatric GI",
+          "evidence": "Finally pediatric GI took seriously.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "ledger": {
+    "patient_id": "P027",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P027",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:58.970710Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The narrative concludes with the patient reflecting on their current state and future uncertainty.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "Switched from Remicade to Humira, supposed to help both conditions.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 32,
+          "evidence": "I'm Vanessa, 32.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female, also bipolar disorder and recently diagnosed with rheumatoid arthritis.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 4.0,
+          "evidence": "Diagnosed with Crohn's four years ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Switched from Remicade to Humira",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Switched from Remicade to Humira",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "currently_on",
+          "evidence": "Added methotrexate.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "currently_on",
+          "evidence": "Bipolar meds weight gain plus prednisone for flares equals 60 pound gain.",
+          "certainty": "medium"
+        },
+        {
+          "name": "Stelara",
+          "status": "discussed",
+          "evidence": "Next step discussing Stelara.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Switched from Remicade to Humira, supposed to help both conditions.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Psychiatrist",
+          "evidence": "Psychiatrist said maybe medication side effect.",
+          "certainty": "high"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "Finally saw GI. Colonoscopy showed severe Crohn's.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

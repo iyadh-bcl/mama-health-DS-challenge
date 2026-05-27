@@ -1,0 +1,105 @@
+{
+  "ledger": {
+    "patient_id": "P009",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P009",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:05:42.503648Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The patient finishes her narrative covering her current treatment status, future options, and personal reflections on living with the condition.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Entyvio",
+        "reasoning": "The patient states \"Started Entyvio infusions\" and notes that \"Entyvio losing effectiveness,\" indicating current usage.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 36,
+          "evidence": "Rachel, 36, female.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Rachel, 36, female.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 3.0,
+          "evidence": "Crohn's diagnosis came late - age 33.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started conservatively with mesalamine. Minimal improvement.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Added prednisone for flare control. The mood swings were horrible.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "stopped",
+          "evidence": "Moved to azathioprine. Three months in, liver enzymes spiked. Had to stop.",
+          "certainty": "high"
+        },
+        {
+          "name": "Entyvio",
+          "status": "currently_on",
+          "evidence": "Started Entyvio infusions. Worked well for a year, then started developing joint pain... Entyvio losing effectiveness.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "currently_on",
+          "evidence": "Added methotrexate for RA, which ironically might help Crohn's too.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "discussed",
+          "evidence": "Looking into Stelara as next option.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "The patient states \"Started Entyvio infusions\" and notes that \"Entyvio losing effectiveness,\" indicating current usage.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "General practitioner",
+          "evidence": "Spent years being told IBS, stress, anxiety.",
+          "certainty": "medium"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "Colonoscopy showed skip lesions throughout colon, classic Crohn's pattern.",
+          "certainty": "medium"
+        }
+      ]
+    }
+  }
+}

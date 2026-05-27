@@ -1,0 +1,117 @@
+{
+  "ledger": {
+    "patient_id": "P008",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P008",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:05:41.582608Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript covers the patient's full history from diagnosis to current treatment and future outlook without any abrupt cutoff.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "The patient states, 'Been on Humira four years now.'",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 29,
+          "evidence": "David, 29, male",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "David, 29, male",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 8.0,
+          "evidence": "diagnosed with Crohn's at 21... David, 29",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started on prednisone and mesalamine.",
+          "certainty": "high"
+        },
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started on prednisone and mesalamine.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "stopped",
+          "evidence": "Started methotrexate, helped but the weekly injections made me so nauseous.",
+          "certainty": "high"
+        },
+        {
+          "name": "6-MP",
+          "status": "stopped",
+          "evidence": "Tried 6-MP next, developed pancreatitis.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Started Remicade. ... Worked for two years, then lost effectiveness.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Been on Humira four years now.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "discussed",
+          "evidence": "Doctor mentioned Stelara or Entyvio as next options.",
+          "certainty": "high"
+        },
+        {
+          "name": "Entyvio",
+          "status": "discussed",
+          "evidence": "Doctor mentioned Stelara or Entyvio as next options.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Been on Humira four years now.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "University health center",
+          "evidence": "University health center kept saying stress.",
+          "certainty": "high"
+        },
+        {
+          "name": "ER",
+          "evidence": "Finally, blood in stool sent me to ER.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

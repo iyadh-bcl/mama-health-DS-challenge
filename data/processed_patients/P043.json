@@ -1,0 +1,88 @@
+{
+  "ledger": {
+    "patient_id": "P043",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P043",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:43.663784Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript ends with the patient reflecting on her situation and perspective, showing no signs of being cut off in the middle of a sentence or thought.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "The patient states: 'Humira losing effectiveness. But scared of transition period.'",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 44,
+          "evidence": "Sandra, 44.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female, also have Hashimoto's thyroiditis",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 12.0,
+          "evidence": "Diagnosed with Crohn's twelve years ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Started Remicade. Worked beautifully for five years. ... Then developed antibodies. Crashed hard.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Tried Humira next. Moderate help. Maybe 60%. ... Humira losing effectiveness.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "currently_on",
+          "evidence": "Added methotrexate. Hair thinned but improvement to maybe 75%. Manageable.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "discussed",
+          "evidence": "Looking at Stelara next.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Humira losing effectiveness. But scared of transition period.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "three doctors",
+          "evidence": "Took two years and three doctors to get diagnosis.",
+          "certainty": "medium"
+        }
+      ]
+    }
+  }
+}

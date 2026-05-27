@@ -1,0 +1,100 @@
+{
+  "ledger": {
+    "patient_id": "P040",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P040",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:41.164657Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript concludes with the patient reflecting on their current state and future outlook without any signs of abrupt truncation.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "The patient explicitly states, \"Tried Humira next. Currently on it but not as effective.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 52,
+          "evidence": "George, 52",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, recently also diagnosed with osteoporosis",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 7.0,
+          "evidence": "diagnosed with Crohn's seven years ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "Prednisone",
+          "status": "stopped",
+          "evidence": "Started aggressive treatment immediately. Prednisone and azathioprine combo... Prednisone sent blood sugars through roof. Needed insulin. Still on it.",
+          "certainty": "high"
+        },
+        {
+          "name": "Azathioprine",
+          "status": "stopped",
+          "evidence": "Azathioprine helped for about two years. Then liver enzymes started climbing. Had to stop.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Switched to Remicade... Then developed antibodies. Stopped working completely within weeks.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Tried Humira next. Currently on it but not as effective.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "discussed",
+          "evidence": "GI wants to add methotrexate.",
+          "certainty": "high"
+        },
+        {
+          "name": "clinical trial drug",
+          "status": "discussed",
+          "evidence": "Next appointment discussing clinical trial. New drug.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Currently on it but not as effective.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "doctor",
+          "evidence": "After three months, finally saw doctor.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

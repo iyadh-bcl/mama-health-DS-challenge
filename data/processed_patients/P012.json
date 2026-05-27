@@ -1,0 +1,93 @@
+{
+  "ledger": {
+    "patient_id": "P012",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P012",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:08.988604Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript covers the patient's full narrative from diagnosis to current treatment status without abrupt cutoff.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Entyvio",
+        "reasoning": "Started infusions six months ago.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 52,
+          "evidence": "Paul, 52, male.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Paul, 52, male.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 1.0,
+          "evidence": "Just diagnosed with Crohn's last year but probably had it for decades.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started with mesalamine and short prednisone course... Mesalamine alone wasn't enough.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Prednisone helped but cardiologist worried about heart. Tapered quickly.",
+          "certainty": "high"
+        },
+        {
+          "name": "sulfasalazine",
+          "status": "stopped",
+          "evidence": "Tried sulfasalazine next. Terrible headaches, had to stop.",
+          "certainty": "high"
+        },
+        {
+          "name": "Entyvio",
+          "status": "currently_on",
+          "evidence": "Started infusions six months ago.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Started infusions six months ago.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "ER",
+          "evidence": "Finally, severe pain sent me to ER.",
+          "certainty": "high"
+        },
+        {
+          "name": "GI doctor",
+          "evidence": "CT showed inflammation throughout intestines. GI doctor said I'm lucky no major complications after so long untreated.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

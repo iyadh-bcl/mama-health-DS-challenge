@@ -1,0 +1,100 @@
+{
+  "ledger": {
+    "patient_id": "P026",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P026",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:58.032544Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript covers the patient's full history and their current concerns about the future, ending with a reflection on their situation.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Remicade",
+        "reasoning": "Finally went on Remicade three years ago.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 50,
+          "evidence": "Alan, 50, diagnosed with Crohn's eight years ago.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Alan",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 8.0,
+          "evidence": "diagnosed with Crohn's eight years ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started on mesalamine for Crohn's... Minimal improvement.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Used it four times now. Each time harder to taper.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "stopped",
+          "evidence": "Tried azathioprine, elevated liver enzymes. Stopped.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "stopped",
+          "evidence": "Methotrexate next, made me feel drunk all the time.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "currently_on",
+          "evidence": "Finally went on Remicade three years ago... Now failing again.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "discussed",
+          "evidence": "Doctor wants to switch to Humira but I'm running out of options.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Finally went on Remicade three years ago.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "General Practitioner",
+          "evidence": "Finally saw doctor.",
+          "certainty": "medium"
+        }
+      ]
+    }
+  }
+}

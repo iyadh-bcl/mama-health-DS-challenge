@@ -1,0 +1,92 @@
+{
+  "ledger": {
+    "patient_id": "P037",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P037",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:38.347209Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript reaches a natural narrative conclusion with the patient reflecting on her situation and motivations.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "The patient explicitly states: 'Started Humira two years ago.'",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 34,
+          "evidence": "I'm Karen, 34",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female, also have postpartum anxiety",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 6.0,
+          "evidence": "diagnosed with Crohn's six years ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started mesalamine while breastfeeding. Limited options. Wasn't enough. Weaned baby early to start stronger meds.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "stopped",
+          "evidence": "Added azathioprine. Helped for about a year. Then joint pain started.",
+          "certainty": "medium"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Started Humira two years ago. Helps both conditions moderately.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Started Humira two years ago.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "OB",
+          "evidence": "OB said hormones.",
+          "certainty": "high"
+        },
+        {
+          "name": "Primary",
+          "evidence": "Primary said anxiety.",
+          "certainty": "high"
+        },
+        {
+          "name": "GI",
+          "evidence": "Finally got to GI. Colonoscopy showed Crohn's throughout colon.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

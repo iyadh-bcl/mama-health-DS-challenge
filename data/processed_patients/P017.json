@@ -1,0 +1,100 @@
+{
+  "ledger": {
+    "patient_id": "P017",
+    "call1_status": "success",
+    "call2_status": "success",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P017",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:44.360292Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript ends with the patient expressing her plan for the next appointment, covering her narrative arc naturally.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "no",
+        "name": null,
+        "reasoning": "She states, 'She mentioned biologics but said we should try other things first. So now I'm on azathioprine.'",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 29,
+          "evidence": "I'm Diana, 29, female",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "I'm Diana, 29, female",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 0.67,
+          "evidence": "Got diagnosed about eight months ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started me on mesalamine. Seemed to help at first? ... So now I'm on azathioprine.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "currently_on",
+          "evidence": "So now I'm on azathioprine.",
+          "certainty": "high"
+        },
+        {
+          "name": "biologics",
+          "status": "discussed",
+          "evidence": "She mentioned biologics but said we should try other things first.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": {
+      "biologic_status_detail": {
+        "status": "discussed_no_decision",
+        "reasoning": "The doctor mentioned biologics but advised trying other treatments like azathioprine first, and the patient is currently considering being more assertive about them in a future appointment.",
+        "certainty": "high"
+      },
+      "reasons": [
+        {
+          "category": "doctor_choice",
+          "evidence": "She mentioned biologics but said we should try other things first.",
+          "certainty": "high"
+        },
+        {
+          "category": "other",
+          "evidence": "Adding more medical stuff to juggle is overwhelming. My ADHD makes remembering medications hard.",
+          "certainty": "medium"
+        }
+      ]
+    },
+    "call3": {
+      "pathway_endpoint": {
+        "status": "discussed_no_decision",
+        "reasoning": "She mentioned biologics but said we should try other things first. So now I'm on azathioprine.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Gastroenterologist",
+          "evidence": "When they finally did the colonoscopy, there was definite inflammation but the doctor called it mild to moderate.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

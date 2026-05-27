@@ -1,0 +1,105 @@
+{
+  "ledger": {
+    "patient_id": "P013",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P013",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:09.989143Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The patient provides a full overview of her diagnosis, treatment history, and current life perspective.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "The patient states: \"Switched from Remicade to Humira, helps both theoretically.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 33,
+          "evidence": "Amanda, 33",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 8.0,
+          "evidence": "diagnosed with Crohn's at 25... Amanda, 33",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "Mesalamine",
+          "status": "stopped",
+          "evidence": "Mesalamine first, limited help.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "stopped",
+          "evidence": "Added azathioprine, developed drug-induced hepatitis.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Switched from Remicade to Humira",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Switched from Remicade to Humira",
+          "certainty": "high"
+        },
+        {
+          "name": "hydroxychloroquine",
+          "status": "currently_on",
+          "evidence": "Added hydroxychloroquine for lupus.",
+          "certainty": "high"
+        },
+        {
+          "name": "Methotrexate",
+          "status": "currently_on",
+          "evidence": "Methotrexate for good measure.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Switched from Remicade to Humira, helps both theoretically.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "General practitioner",
+          "evidence": "Started with intestinal symptoms, typical Crohn's presentation.",
+          "certainty": "medium"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "After colonoscopy confirmation, began standard treatment ladder.",
+          "certainty": "medium"
+        }
+      ]
+    }
+  }
+}

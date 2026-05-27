@@ -1,0 +1,100 @@
+{
+  "ledger": {
+    "patient_id": "P032",
+    "call1_status": "success",
+    "call2_status": "success",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P032",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:33.652624Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The patient finishes their reflection on their life, marriage, and struggle with the disease.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "no",
+        "name": null,
+        "reasoning": "GI doctor wants biologics but insurance says no. Need to fail more drugs first.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 54,
+          "evidence": "Frank, 54.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, already dealing with diabetes",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 1.0,
+          "evidence": "Diagnosed with Crohn's just last year.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started mesalamine. Nothing.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Added prednisone. Blood sugar went insane. Cardiologist had fit. Stopped that quick.",
+          "certainty": "high"
+        },
+        {
+          "name": "sulfasalazine",
+          "status": "currently_on",
+          "evidence": "Now trying sulfasalazine.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": {
+      "biologic_status_detail": {
+        "status": "explicitly_rejected",
+        "reasoning": "GI doctor wants biologics but insurance says no. Need to fail more drugs first.",
+        "certainty": "high"
+      },
+      "reasons": [
+        {
+          "category": "cost_insurance",
+          "evidence": "GI doctor wants biologics but insurance says no. Need to fail more drugs first.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call3": {
+      "pathway_endpoint": {
+        "status": "explicitly_rejected",
+        "reasoning": "GI doctor wants biologics but insurance says no. Need to fail more drugs first.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "doctor",
+          "evidence": "Finally wife forced me to mention to doctor.",
+          "certainty": "high"
+        },
+        {
+          "name": "GI doctor",
+          "evidence": "Colonoscopy found inflammation throughout colon, some in small bowel. ... GI doctor wants biologics but insurance says no.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "ledger": {
+    "patient_id": "P021",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P021",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:49.923931Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript reaches a natural concluding reflection on the patient's current status and outlook on life.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Stelara",
+        "reasoning": "The patient states, \"Finally approved. Been on it eighteen months. It's okay. Not great, just okay.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 31,
+          "evidence": "Rachel, 31, diagnosed five years ago.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "As female lawyer, appearance matters.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 5.0,
+          "evidence": "Rachel, 31, diagnosed five years ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started standard protocol - mesalamine, then added azathioprine. Minimal improvement.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "stopped",
+          "evidence": "Started standard protocol - mesalamine, then added azathioprine. Minimal improvement.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Remicade first... Worked for a year then allergic reaction during infusion.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "stopped",
+          "evidence": "Switched to Humira... effectiveness limited... Still not controlled.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "currently_on",
+          "evidence": "Added methotrexate. Hair started falling out... Doctor discussing combination therapy - Stelara plus methotrexate plus who knows what else.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "currently_on",
+          "evidence": "Started Stelara... Been on it eighteen months.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Finally approved. Been on it eighteen months. It's okay. Not great, just okay.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Gastroenterologist",
+          "evidence": "First GI said IBS.",
+          "certainty": "high"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "Second said stress.",
+          "certainty": "high"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "Finally, third did proper testing. Colonoscopy showed Crohn's throughout colon and terminal ileum.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

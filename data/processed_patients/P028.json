@@ -1,0 +1,87 @@
+{
+  "ledger": {
+    "patient_id": "P028",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P028",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:59.919921Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript ends with the patient summarizing their current mindset and approach to daily life without evidence of an abrupt cutoff.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Entyvio",
+        "reasoning": "Finally convinced doctors to try Entyvio. Supposedly gut-selective, less systemic impact. Insurance denied three times... Finally approved. Started three months ago.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 43,
+          "evidence": "Thomas, 43, Crohn's for about six years now.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, also dealing with chronic kidney disease",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 6.0,
+          "evidence": "Crohn's for about six years now.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started conservatively with mesalamine. Helped initially. Then kidney function started declining. Nephrologist said stop immediately.",
+          "certainty": "high"
+        },
+        {
+          "name": "budesonide",
+          "status": "currently_on",
+          "evidence": "Started budesonide... Helps somewhat but not long-term solution.",
+          "certainty": "high"
+        },
+        {
+          "name": "Entyvio",
+          "status": "currently_on",
+          "evidence": "Finally convinced doctors to try Entyvio... Started three months ago.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Finally approved. Started three months ago.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "doctor",
+          "evidence": "Finally saw doctor.",
+          "certainty": "high"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "GI wants biologics but nephrologist concerned.",
+          "certainty": "medium"
+        }
+      ]
+    }
+  }
+}

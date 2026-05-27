@@ -1,0 +1,4910 @@
+{
+  "pipeline_run_metadata": {
+    "timestamp": "2026-05-26T15:08:49.624874+00:00",
+    "model": "gemini/gemini-3.1-flash-lite",
+    "total_patients": 50,
+    "total_successes": 50,
+    "total_failures": 0
+  },
+  "ledger": [
+    {
+      "patient_id": "P001",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P002",
+      "call1_status": "success",
+      "call2_status": "success",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P003",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P004",
+      "call1_status": "success",
+      "call2_status": "success",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P005",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P006",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P007",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P008",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P009",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P010",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P011",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P012",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P013",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P014",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P015",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P016",
+      "call1_status": "success",
+      "call2_status": "success",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P017",
+      "call1_status": "success",
+      "call2_status": "success",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P018",
+      "call1_status": "success",
+      "call2_status": "success",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P019",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P020",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P021",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P022",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P023",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P024",
+      "call1_status": "success",
+      "call2_status": "success",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P025",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P026",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P027",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P028",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P029",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P030",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P031",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P032",
+      "call1_status": "success",
+      "call2_status": "success",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P033",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P034",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P035",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P036",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P037",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P038",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P039",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P040",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P041",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P042",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P043",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P044",
+      "call1_status": "success",
+      "call2_status": "success",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P045",
+      "call1_status": "success",
+      "call2_status": "success",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P046",
+      "call1_status": "success",
+      "call2_status": "skipped",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P047",
+      "call1_status": "success",
+      "call2_status": "success",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P048",
+      "call1_status": "success",
+      "call2_status": "success",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P049",
+      "call1_status": "success",
+      "call2_status": "success",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    },
+    {
+      "patient_id": "P050",
+      "call1_status": "success",
+      "call2_status": "success",
+      "call3_status": "success",
+      "success": true,
+      "error": null
+    }
+  ],
+  "records": [
+    {
+      "metadata": {
+        "patient_id": "P001",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:05:33.188448Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient provides a comprehensive narrative from initial diagnosis through current management and long-term reflection.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "I've been on Humira for five years now, self-injecting every two weeks.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 34,
+            "evidence": "I'm Sarah, 34 years old",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "I'm Sarah",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 8.0,
+            "evidence": "I've been dealing with Crohn's for about eight years now.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "We started with mesalamine, 4 grams daily. I was hopeful, but after three months, there wasn't much improvement.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "stopped",
+            "evidence": "Then we tried azathioprine, which actually made me feel worse. I developed severe nausea and my liver enzymes went up.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "I've been on Humira for five years now, self-injecting every two weeks.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "discussed",
+            "evidence": "She explained that Humira or Remicade could be game-changers for someone with moderate to severe Crohn's like mine.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "I've been on Humira for five years now, self-injecting every two weeks.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "primary care doctor",
+            "evidence": "My primary care doctor, Dr. Martinez, initially diagnosed me with IBS",
+            "certainty": "high"
+          },
+          {
+            "name": "gastroenterologist",
+            "evidence": "Dr. Martinez referred me to a gastroenterologist, Dr. Rebecca Chen.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P002",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:05:34.123759Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient provides a comprehensive overview of their current medical and financial situation, concluding with future plans for an upcoming appointment.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "no",
+          "name": null,
+          "reasoning": "The patient states: Dr. Patel wanted to start me on a biologic, specifically Stelara, but my insurance classified it as tier 4... we're currently trying to get financial assistance from the drug company.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 42,
+            "evidence": "I'm 42",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "male",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 3.0,
+            "evidence": "The digestive issues started about three years ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started on prednisone for immediate relief",
+            "certainty": "high"
+          },
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Then tried mesalamine, no improvement.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "stopped",
+            "evidence": "Moved to methotrexate, but my liver wasn't happy",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "discussed",
+            "evidence": "Dr. Patel wanted to start me on a biologic, specifically Stelara, but my insurance classified it as tier 4",
+            "certainty": "high"
+          },
+          {
+            "name": "budesonide",
+            "status": "currently_on",
+            "evidence": "Meanwhile, I'm on budesonide",
+            "certainty": "high"
+          },
+          {
+            "name": "iron supplements",
+            "status": "currently_on",
+            "evidence": "I'm on iron supplements",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": {
+        "biologic_status_detail": {
+          "status": "discussed_no_decision",
+          "reasoning": "Dr. Patel wants to start the patient on Stelara, but the patient cannot currently afford the $800 per month copay and is waiting for financial assistance.",
+          "certainty": "high"
+        },
+        "reasons": [
+          {
+            "category": "cost_insurance",
+            "evidence": "Dr. Patel wanted to start me on a biologic, specifically Stelara, but my insurance classified it as tier 4, meaning I'd have to pay $800 per month even with coverage.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call3": {
+        "pathway_endpoint": {
+          "status": "churned",
+          "reasoning": "The patient states: Dr. Patel wanted to start me on a biologic, specifically Stelara, but my insurance classified it as tier 4... we're currently trying to get financial assistance from the drug company.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "endocrinologist",
+            "evidence": "At first, my endocrinologist thought it was diabetic gastroparesis",
+            "certainty": "high"
+          },
+          {
+            "name": "gastroenterologist",
+            "evidence": "The gastroenterologist, Dr. Patel, was thorough.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P003",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:05:34.869544Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient provides a comprehensive overview of her history, current status, and future concerns, and there is no indication of an abrupt cutoff.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Stelara",
+          "reasoning": "Currently on Stelara every 8 weeks.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 28,
+            "evidence": "I'm Emma, 28 years old",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female, also have anxiety disorder and PCOS.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 12.0,
+            "evidence": "28 years old, diagnosed with Crohn's at 16.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "sulfasalazine",
+            "status": "stopped",
+            "evidence": "started with sulfasalazine",
+            "certainty": "high"
+          },
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "then mesalamine",
+            "certainty": "high"
+          },
+          {
+            "name": "6-MP",
+            "status": "stopped",
+            "evidence": "then 6-MP",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "stopped",
+            "evidence": "then methotrexate",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Finally started Remicade infusions at 19... after three years, developed antibodies and it stopped working.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "stopped",
+            "evidence": "Switched to Humira, worked for about two years, then lost effectiveness.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "currently_on",
+            "evidence": "Currently on Stelara every 8 weeks.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Currently on Stelara every 8 weeks.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "multiple doctors",
+            "evidence": "Saw multiple doctors over two years before getting diagnosed.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P004",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:05:35.811838Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript provides a cohesive narrative from diagnosis through current struggles and future considerations without an abrupt cutoff.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "no",
+          "name": null,
+          "reasoning": "The patient states: \"Now he wants me on a biologic, recommended Entyvio... The problem is I'm self-employed... That's impossible.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 55,
+            "evidence": "Robert here, 55 years old",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, also dealing with hypertension and high cholesterol.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 0.5,
+            "evidence": "just diagnosed with Crohn's six months ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started me on prednisone immediately, which helped, but he said it's not a long-term solution.",
+            "certainty": "high"
+          },
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Tried mesalamine next, minimal improvement.",
+            "certainty": "high"
+          },
+          {
+            "name": "sulfasalazine",
+            "status": "stopped",
+            "evidence": "Then sulfasalazine, which gave me terrible headaches.",
+            "certainty": "high"
+          },
+          {
+            "name": "Entyvio",
+            "status": "discussed",
+            "evidence": "Now he wants me on a biologic, recommended Entyvio.",
+            "certainty": "high"
+          },
+          {
+            "name": "budesonide",
+            "status": "currently_on",
+            "evidence": "I've been trying to manage with diet changes and budesonide, but I know it's not enough.",
+            "certainty": "high"
+          },
+          {
+            "name": "tramadol",
+            "status": "currently_on",
+            "evidence": "Taking tramadol occasionally, but worried about dependency.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": {
+        "biologic_status_detail": {
+          "status": "explicitly_rejected",
+          "reasoning": "The patient explicitly states that the recommended biologic, Entyvio, is financially impossible due to his insurance coverage and cost.",
+          "certainty": "high"
+        },
+        "reasons": [
+          {
+            "category": "cost_insurance",
+            "evidence": "The problem is I'm self-employed, my insurance is catastrophic coverage only. The medication would cost me $5,000 per infusion, every 8 weeks. That's impossible.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call3": {
+        "pathway_endpoint": {
+          "status": "explicitly_rejected",
+          "reasoning": "The patient states: \"Now he wants me on a biologic, recommended Entyvio... The medication would cost me $5,000 per infusion, every 8 weeks. That's impossible.\"",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Emergency room",
+            "evidence": "Emergency room visit led to CT scan showing significant inflammation.",
+            "certainty": "high"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "They referred me to a GI specialist, took two months to get in. Dr. Williams did a colonoscopy and confirmed Crohn's disease",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P005",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:05:36.588605Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient finishes their reflection on the challenges of living with Crohn's and their outlook on the future without an abrupt ending.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "Been stable on Humira for two years now",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 31,
+            "evidence": "Lisa, 31, female",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Lisa, 31, female",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 5.0,
+            "evidence": "diagnosed with Crohn's five years ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started with conventional therapy - mesalamine and brief prednisone. Helped initially, but symptoms returned within months.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started with conventional therapy - mesalamine and brief prednisone.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "stopped",
+            "evidence": "Tried immunomodulators next, azathioprine specifically. Developed pancreatitis... That's when we moved to biologics.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Started Remicade, but the infusion center was an hour away... Switched to Humira",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Been stable on Humira for two years now",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Been stable on Humira for two years now",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "General practitioner",
+            "evidence": "doctors kept dismissing my symptoms as period-related or stress",
+            "certainty": "medium"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "Finally, a female GI doctor took me seriously and ordered proper testing.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P006",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:05:39.738107Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript covers the patient's full history from diagnosis to current treatment status and personal reflections without abrupt ending.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Stelara",
+          "reasoning": "Finally got Stelara approved, been on it for two years.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 38,
+            "evidence": "Tom here, 38",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, also have depression",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 10.0,
+            "evidence": "dealing with Crohn's for about ten years now.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "methotrexate",
+            "status": "stopped",
+            "evidence": "Post-surgery, started on methotrexate, helped for a while but developed lung problems, possibly drug-related.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "stopped",
+            "evidence": "Switched to Humira, miraculous for three years, then stopped working.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "so tried Remicade. Developed antibodies within six months.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "currently_on",
+            "evidence": "Finally got Stelara approved, been on it for two years.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "discussed",
+            "evidence": "Dr. Anderson, my GI, is pushing for combo therapy - adding methotrexate back at lower dose with Stelara.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Finally got Stelara approved, been on it for two years.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Gastroenterologist",
+            "evidence": "Dr. Anderson, my GI, is pushing for combo therapy",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P007",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:05:40.659799Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript ends with the patient discussing their ongoing management and future concerns without an abrupt cutoff.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Entyvio",
+          "reasoning": "The patient explicitly states, \"Started Entyvio as insurance covered it better than others\" and \"Been stable-ish for 18 months.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 45,
+            "evidence": "I'm Jennifer, 45",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female, also hypothyroid and have fibromyalgia.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 3.0,
+            "evidence": "diagnosed with Crohn's three years ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started aggressively with prednisone and azathioprine combination... Tapered off after three months.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "currently_on",
+            "evidence": "Started aggressively with prednisone and azathioprine combination... Azathioprine alone wasn't holding things.",
+            "certainty": "medium"
+          },
+          {
+            "name": "Entyvio",
+            "status": "currently_on",
+            "evidence": "Started Entyvio as insurance covered it better than others... Been stable-ish for 18 months.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Started Entyvio as insurance covered it better than others and been stable-ish for 18 months.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "GI doctor",
+            "evidence": "Finally, severe weight loss and persistent diarrhea led to proper GI workup.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P008",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:05:41.582608Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript covers the patient's full history from diagnosis to current treatment and future outlook without any abrupt cutoff.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "The patient states, 'Been on Humira four years now.'",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 29,
+            "evidence": "David, 29, male",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "David, 29, male",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 8.0,
+            "evidence": "diagnosed with Crohn's at 21... David, 29",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started on prednisone and mesalamine.",
+            "certainty": "high"
+          },
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started on prednisone and mesalamine.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "stopped",
+            "evidence": "Started methotrexate, helped but the weekly injections made me so nauseous.",
+            "certainty": "high"
+          },
+          {
+            "name": "6-MP",
+            "status": "stopped",
+            "evidence": "Tried 6-MP next, developed pancreatitis.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Started Remicade. ... Worked for two years, then lost effectiveness.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Been on Humira four years now.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "discussed",
+            "evidence": "Doctor mentioned Stelara or Entyvio as next options.",
+            "certainty": "high"
+          },
+          {
+            "name": "Entyvio",
+            "status": "discussed",
+            "evidence": "Doctor mentioned Stelara or Entyvio as next options.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Been on Humira four years now.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "University health center",
+            "evidence": "University health center kept saying stress.",
+            "certainty": "high"
+          },
+          {
+            "name": "ER",
+            "evidence": "Finally, blood in stool sent me to ER.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P009",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:05:42.503648Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient finishes her narrative covering her current treatment status, future options, and personal reflections on living with the condition.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Entyvio",
+          "reasoning": "The patient states \"Started Entyvio infusions\" and notes that \"Entyvio losing effectiveness,\" indicating current usage.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 36,
+            "evidence": "Rachel, 36, female.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Rachel, 36, female.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 3.0,
+            "evidence": "Crohn's diagnosis came late - age 33.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started conservatively with mesalamine. Minimal improvement.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Added prednisone for flare control. The mood swings were horrible.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "stopped",
+            "evidence": "Moved to azathioprine. Three months in, liver enzymes spiked. Had to stop.",
+            "certainty": "high"
+          },
+          {
+            "name": "Entyvio",
+            "status": "currently_on",
+            "evidence": "Started Entyvio infusions. Worked well for a year, then started developing joint pain... Entyvio losing effectiveness.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "currently_on",
+            "evidence": "Added methotrexate for RA, which ironically might help Crohn's too.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "discussed",
+            "evidence": "Looking into Stelara as next option.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "The patient states \"Started Entyvio infusions\" and notes that \"Entyvio losing effectiveness,\" indicating current usage.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "General practitioner",
+            "evidence": "Spent years being told IBS, stress, anxiety.",
+            "certainty": "medium"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "Colonoscopy showed skip lesions throughout colon, classic Crohn's pattern.",
+            "certainty": "medium"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P010",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:05:43.359045Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript ends with the patient discussing their ongoing management and future outlook rather than cutting off mid-sentence.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "Been on Humira two years.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 48,
+            "evidence": "Mark here, 48, diagnosed with Crohn's five years ago.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, type 2 diabetic, and now dealing with Crohn's-related arthritis.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 5.0,
+            "evidence": "Mark here, 48, diagnosed with Crohn's five years ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Tapered prednisone after two months.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "stopped",
+            "evidence": "Azathioprine and mesalamine maintained remission for about a year. Then started having severe joint pain.",
+            "certainty": "medium"
+          },
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Stopped mesalamine, wasn't really helping.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "stopped",
+            "evidence": "Started methotrexate for both conditions. Helped joints but Crohn's flared.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Been on Humira two years.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "discussed",
+            "evidence": "Next step might be Stelara if Humira fails.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Been on Humira two years.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "primary care",
+            "evidence": "Primary care ran basic tests, all normal except elevated CRP.",
+            "certainty": "high"
+          },
+          {
+            "name": "gastroenterologist",
+            "evidence": "Referred to gastroenterologist.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P011",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:07.952635Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient finishes her narrative by summarizing her current outlook and life situation without any abrupt cutoff.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "The patient states: \"Switched to Humira. The every-two-week injection is manageable.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 26,
+            "evidence": "Jessica, 26, female",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Jessica, 26, female",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 7.0,
+            "evidence": "diagnosed with Crohn's at 19.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started on prednisone... Tapered off prednisone",
+            "certainty": "high"
+          },
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started on prednisone and mesalamine... tried to maintain on mesalamine alone. Lasted six months before major flare.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "stopped",
+            "evidence": "Started methotrexate. The weekly injections became my Friday night ritual. Worked okay for a while.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Started Remicade after surgery. Game-changer initially... But after 18 months, developed antibodies.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Switched to Humira. The every-two-week injection is manageable.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Switched to Humira. The every-two-week injection is manageable.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Health center",
+            "evidence": "Health center said stress, normal for new students.",
+            "certainty": "high"
+          },
+          {
+            "name": "family doctor",
+            "evidence": "Finally went home and saw family doctor.",
+            "certainty": "high"
+          },
+          {
+            "name": "GI specialist",
+            "evidence": "He immediately sent me to GI specialist.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P012",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:08.988604Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript covers the patient's full narrative from diagnosis to current treatment status without abrupt cutoff.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Entyvio",
+          "reasoning": "Started infusions six months ago.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 52,
+            "evidence": "Paul, 52, male.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Paul, 52, male.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 1.0,
+            "evidence": "Just diagnosed with Crohn's last year but probably had it for decades.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started with mesalamine and short prednisone course... Mesalamine alone wasn't enough.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Prednisone helped but cardiologist worried about heart. Tapered quickly.",
+            "certainty": "high"
+          },
+          {
+            "name": "sulfasalazine",
+            "status": "stopped",
+            "evidence": "Tried sulfasalazine next. Terrible headaches, had to stop.",
+            "certainty": "high"
+          },
+          {
+            "name": "Entyvio",
+            "status": "currently_on",
+            "evidence": "Started infusions six months ago.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Started infusions six months ago.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "ER",
+            "evidence": "Finally, severe pain sent me to ER.",
+            "certainty": "high"
+          },
+          {
+            "name": "GI doctor",
+            "evidence": "CT showed inflammation throughout intestines. GI doctor said I'm lucky no major complications after so long untreated.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P013",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:09.989143Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient provides a full overview of her diagnosis, treatment history, and current life perspective.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "The patient states: \"Switched from Remicade to Humira, helps both theoretically.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 33,
+            "evidence": "Amanda, 33",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 8.0,
+            "evidence": "diagnosed with Crohn's at 25... Amanda, 33",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "Mesalamine",
+            "status": "stopped",
+            "evidence": "Mesalamine first, limited help.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "stopped",
+            "evidence": "Added azathioprine, developed drug-induced hepatitis.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Switched from Remicade to Humira",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Switched from Remicade to Humira",
+            "certainty": "high"
+          },
+          {
+            "name": "hydroxychloroquine",
+            "status": "currently_on",
+            "evidence": "Added hydroxychloroquine for lupus.",
+            "certainty": "high"
+          },
+          {
+            "name": "Methotrexate",
+            "status": "currently_on",
+            "evidence": "Methotrexate for good measure.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Switched from Remicade to Humira, helps both theoretically.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "General practitioner",
+            "evidence": "Started with intestinal symptoms, typical Crohn's presentation.",
+            "certainty": "medium"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "After colonoscopy confirmation, began standard treatment ladder.",
+            "certainty": "medium"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P014",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:11.005261Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript covers the patient's diagnostic journey, current treatments, daily impact, and emotional state in a coherent manner without signs of premature cutoff.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Stelara",
+          "reasoning": "The patient explicitly states, \"Switched to biologic that could treat both conditions. Started Stelara.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 41,
+            "evidence": "Brian, 41, male.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Brian, 41, male.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 3.0,
+            "evidence": "Crohn's diagnosed three years ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "antispasmodics",
+            "status": "stopped",
+            "evidence": "First GI saw said IBS, gave me antispasmodics. Useless.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "stopped",
+            "evidence": "Already on methotrexate for psoriasis, doctor hoped would help Crohn's too. Didn't.",
+            "certainty": "high"
+          },
+          {
+            "name": "sulfasalazine",
+            "status": "stopped",
+            "evidence": "Added sulfasalazine, allergic reaction. Hives everywhere. Miserable.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "currently_on",
+            "evidence": "Started Stelara. ... Stelara helping both conditions somewhat.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Switched to biologic that could treat both conditions. Started Stelara.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "General Practitioner",
+            "evidence": "First GI saw said IBS, gave me antispasmodics.",
+            "certainty": "medium"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "Second opinion led to proper testing. Colonoscopy showed patchy inflammation throughout. Classic Crohn's.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P015",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:12.122878Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient provides a comprehensive overview of her history, current treatment, and future outlook without any indication of a cutoff.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Stelara",
+          "reasoning": "The patient states, \"Finally got approved for Stelara. Been on it two years.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 37,
+            "evidence": "My name is Caroline, I'm 37 years old",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "I'm a single mom to two kids",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 15.0,
+            "evidence": "been dealing with Crohn's disease for almost 15 years now.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started on prednisone and mesalamine right away. The prednisone was horrible - gained 30 pounds, couldn't sleep, mood swings that scared me. But it did calm the inflammation.",
+            "certainty": "high"
+          },
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Tried to maintain on just mesalamine but within three months I was flaring again.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "stopped",
+            "evidence": "Added azathioprine. Worked for about a year until I developed severe joint pain. ... had to stop the medication.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Started Remicade when I was 24. ... Then during my second pregnancy, it stopped working.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "stopped",
+            "evidence": "After delivery, started Humira. ... Humira worked for three years. ... When Humira failed, tried Cimzia.",
+            "certainty": "high"
+          },
+          {
+            "name": "Cimzia",
+            "status": "rejected",
+            "evidence": "When Humira failed, tried Cimzia. Insurance denied it three times.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "currently_on",
+            "evidence": "Finally got approved for Stelara. Been on it two years.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "discussed",
+            "evidence": "Doctor mentioned combination therapy next - adding methotrexate to Stelara.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Finally got approved for Stelara. Been on it two years.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "doctor",
+            "evidence": "When I finally saw a doctor, she said IBS and gave me fiber supplements.",
+            "certainty": "high"
+          },
+          {
+            "name": "GI doctor",
+            "evidence": "After six months of increasing pain and weight loss, I demanded a referral to a specialist. The GI doctor ordered a colonoscopy immediately.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P016",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:43.258695Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The narrative concludes with the patient's current internal conflict regarding treatment, suggesting no abrupt cutoff in the transcript.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "no",
+          "name": null,
+          "reasoning": "The patient states: 'Now they want to put me on these injection things. Biologics.'",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 44,
+            "evidence": "I'm Steve, 44 years old",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, also dealing with a bad back",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 2.0,
+            "evidence": "my Crohn's story started about two years ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started with something called mesalamine. Didn't do much.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Then prednisone which helped with the gut but made me crazy. I mean, seriously aggressive. Almost got into a fight at work. Had to get off that stuff.",
+            "certainty": "high"
+          },
+          {
+            "name": "biologics",
+            "status": "discussed",
+            "evidence": "Now they want to put me on these injection things. Biologics.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": {
+        "biologic_status_detail": {
+          "status": "discussed_no_decision",
+          "reasoning": "The patient states: 'Now they want to put me on these injection things. Biologics.' but has not yet started them due to coverage issues and personal hesitation.",
+          "certainty": "high"
+        },
+        "reasons": [
+          {
+            "category": "cost_insurance",
+            "evidence": "The cost is insane. Insurance through the union is usually good but they're fighting coverage. Something about needing to fail more medications first.",
+            "certainty": "high"
+          },
+          {
+            "category": "patient_fear",
+            "evidence": "Heard they suppress your immune system. In construction, always getting cuts, exposed to stuff. Seems risky.",
+            "certainty": "high"
+          },
+          {
+            "category": "access",
+            "evidence": "Doc mentioned there's programs to help with medication costs but the paperwork... I'm not good with that stuff.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call3": {
+        "pathway_endpoint": {
+          "status": "discussed_no_decision",
+          "reasoning": "The patient states: 'Now they want to put me on these injection things. Biologics.' but expresses hesitation and insurance hurdles, indicating no final decision has been made.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "ER physician",
+            "evidence": "it all came to a head when I ended up in the ER.",
+            "certainty": "high"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "The GI doc, young guy, very enthusiastic, started explaining all these medication options.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P017",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:44.360292Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript ends with the patient expressing her plan for the next appointment, covering her narrative arc naturally.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "no",
+          "name": null,
+          "reasoning": "She states, 'She mentioned biologics but said we should try other things first. So now I'm on azathioprine.'",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 29,
+            "evidence": "I'm Diana, 29, female",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "I'm Diana, 29, female",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 0.67,
+            "evidence": "Got diagnosed about eight months ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started me on mesalamine. Seemed to help at first? ... So now I'm on azathioprine.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "currently_on",
+            "evidence": "So now I'm on azathioprine.",
+            "certainty": "high"
+          },
+          {
+            "name": "biologics",
+            "status": "discussed",
+            "evidence": "She mentioned biologics but said we should try other things first.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": {
+        "biologic_status_detail": {
+          "status": "discussed_no_decision",
+          "reasoning": "The doctor mentioned biologics but advised trying other treatments like azathioprine first, and the patient is currently considering being more assertive about them in a future appointment.",
+          "certainty": "high"
+        },
+        "reasons": [
+          {
+            "category": "doctor_choice",
+            "evidence": "She mentioned biologics but said we should try other things first.",
+            "certainty": "high"
+          },
+          {
+            "category": "other",
+            "evidence": "Adding more medical stuff to juggle is overwhelming. My ADHD makes remembering medications hard.",
+            "certainty": "medium"
+          }
+        ]
+      },
+      "call3": {
+        "pathway_endpoint": {
+          "status": "discussed_no_decision",
+          "reasoning": "She mentioned biologics but said we should try other things first. So now I'm on azathioprine.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Gastroenterologist",
+            "evidence": "When they finally did the colonoscopy, there was definite inflammation but the doctor called it mild to moderate.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P018",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:47.073969Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript ends with the patient discussing his upcoming appointment and personal reflections, indicating a full narrative.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "no",
+          "name": null,
+          "reasoning": "The patient explicitly states he is hesitant and has not started them yet: \"GI doctor wants to try biologics but I'm hesitant.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 58,
+            "evidence": "Richard here, 58 years old.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, already dealing with type 2 diabetes",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 0.5,
+            "evidence": "Just got hit with this Crohn's diagnosis six months ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started me on prednisone first... Tried mesalamine after tapering prednisone.",
+            "certainty": "high"
+          },
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Tried mesalamine after tapering prednisone. Didn't do much.",
+            "certainty": "high"
+          },
+          {
+            "name": "budesonide",
+            "status": "currently_on",
+            "evidence": "Now on something called budesonide.",
+            "certainty": "high"
+          },
+          {
+            "name": "biologics",
+            "status": "discussed",
+            "evidence": "GI doctor wants to try biologics but I'm hesitant.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": {
+        "biologic_status_detail": {
+          "status": "discussed_no_decision",
+          "reasoning": "The patient's GI doctor has proposed starting biologics, but the patient remains hesitant and a final decision has been deferred to the next appointment.",
+          "certainty": "high"
+        },
+        "reasons": [
+          {
+            "category": "patient_fear",
+            "evidence": "Adding immunosuppressants seems risky. What if I get sick? I help watch my grandkids twice a week. They're walking petri dishes.",
+            "certainty": "high"
+          },
+          {
+            "category": "cost_insurance",
+            "evidence": "But these biologics, the cost alone is staggering. We're on Medicare. Coverage is complicated. Donut hole, prior authorizations.",
+            "certainty": "high"
+          },
+          {
+            "category": "doctor_choice",
+            "evidence": "GI doctor wants to try biologics but I'm hesitant. Already on so many meds.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call3": {
+        "pathway_endpoint": {
+          "status": "discussed_no_decision",
+          "reasoning": "GI doctor wants to try biologics but I'm hesitant.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Gastroenterologist",
+            "evidence": "GI doctor wants to try biologics but I'm hesitant.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P019",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:48.001604Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript covers the patient's narrative from diagnosis through current treatment and psychological impact without any abrupt ending.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "The patient explicitly states, \"Started Humira right away\" and \"Humira working okay.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 24,
+            "evidence": "I'm Natalie, 24, just graduated college",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female, also have generalized anxiety disorder.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": null,
+            "evidence": "The transcript mentions the diagnosis happened \"just\" after graduating college but does not specify a duration in years.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Started Humira right away, skipping the traditional steps. ... Humira working okay.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Humira working okay.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Gastroenterologist",
+            "evidence": "Family friend who's a GI.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P020",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:48.816720Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript provides a full narrative of the patient's history, current struggles, and concludes with a reflection on his condition.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "The patient explicitly states, 'Been on Humira three years now.'",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 46,
+            "evidence": "Gary, 46, diagnosed with Crohn's",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Embarrassing for a grown man.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 7.0,
+            "evidence": "diagnosed with Crohn's about seven years ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started on prednisone and mesalamine. Prednisone made me rage. Almost lost my job from snapping at supervisor. Got off that quick.",
+            "certainty": "high"
+          },
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Mesalamine didn't do much alone.",
+            "certainty": "high"
+          },
+          {
+            "name": "sulfasalazine",
+            "status": "stopped",
+            "evidence": "Tried sulfasalazine, gave me killer headaches.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "stopped",
+            "evidence": "Then methotrexate, made me so nauseous I couldn't work.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Then stopped working completely. Switched to Humira.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Been on Humira three years now.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "discussed",
+            "evidence": "Doc mentioned Stelara next.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Been on Humira three years now.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "doctor",
+            "evidence": "Wife finally made me see doctor when I dropped 20 pounds.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P021",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:49.923931Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript reaches a natural concluding reflection on the patient's current status and outlook on life.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Stelara",
+          "reasoning": "The patient states, \"Finally approved. Been on it eighteen months. It's okay. Not great, just okay.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 31,
+            "evidence": "Rachel, 31, diagnosed five years ago.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "As female lawyer, appearance matters.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 5.0,
+            "evidence": "Rachel, 31, diagnosed five years ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started standard protocol - mesalamine, then added azathioprine. Minimal improvement.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "stopped",
+            "evidence": "Started standard protocol - mesalamine, then added azathioprine. Minimal improvement.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Remicade first... Worked for a year then allergic reaction during infusion.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "stopped",
+            "evidence": "Switched to Humira... effectiveness limited... Still not controlled.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "currently_on",
+            "evidence": "Added methotrexate. Hair started falling out... Doctor discussing combination therapy - Stelara plus methotrexate plus who knows what else.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "currently_on",
+            "evidence": "Started Stelara... Been on it eighteen months.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Finally approved. Been on it eighteen months. It's okay. Not great, just okay.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Gastroenterologist",
+            "evidence": "First GI said IBS.",
+            "certainty": "high"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "Second said stress.",
+            "certainty": "high"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "Finally, third did proper testing. Colonoscopy showed Crohn's throughout colon and terminal ileum.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P022",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:50.903152Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript ends with a coherent conclusion about the patient's current outlook and acceptance of their situation.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "The patient states he switched to Humira after Remicade stopped working and is currently taking it alongside methotrexate.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 35,
+            "evidence": "James, 35.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, now also dealing with medication-induced diabetes",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 2.0,
+            "evidence": "Crohn's hit me like a truck two years ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "Prednisone",
+            "status": "stopped",
+            "evidence": "High-dose prednisone for two months. ... Tapered prednisone",
+            "certainty": "high"
+          },
+          {
+            "name": "Azathioprine",
+            "status": "stopped",
+            "evidence": "started azathioprine. Helped minimally.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Remicade worked initially. ... But after year, developed antibodies. Stopped working.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Switched to Humira. The every two week injection manageable",
+            "certainty": "high"
+          },
+          {
+            "name": "Methotrexate",
+            "status": "currently_on",
+            "evidence": "Doctor added methotrexate. ... But combination helping more than Humira alone.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "discussed",
+            "evidence": "Next step if Humira/methotrexate combo fails is Stelara or Entyvio.",
+            "certainty": "high"
+          },
+          {
+            "name": "Entyvio",
+            "status": "discussed",
+            "evidence": "Next step if Humira/methotrexate combo fails is Stelara or Entyvio.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "The patient states he switched to Humira after Remicade stopped working and is currently taking it alongside methotrexate.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Emergency room",
+            "evidence": "Emergency room visit started everything.",
+            "certainty": "high"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "GI pushed for biologics quickly given severity.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P023",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:51.899797Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript reaches a natural conclusion with a reflective summary about the patient's life and outlook.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "Finally approved for Humira.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 27,
+            "evidence": "Monica, 27, diagnosed last year",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female, also have PCOS and depression.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 1.0,
+            "evidence": "diagnosed last year",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "fiber supplements",
+            "status": "rejected",
+            "evidence": "Gave me fiber supplements, made worse.",
+            "certainty": "high"
+          },
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started mesalamine. Minimal help.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Added prednisone for flare. Gained all weight back plus more.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "stopped",
+            "evidence": "Tried azathioprine. Developed pancreatitis.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "stopped",
+            "evidence": "Tried methotrexate. Nausea unbearable.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Humira helping some. Maybe 40% better.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Finally approved for Humira.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "campus health",
+            "evidence": "Campus health said stress, IBS.",
+            "certainty": "high"
+          },
+          {
+            "name": "primary doctor",
+            "evidence": "Primary doctor blamed weight.",
+            "certainty": "high"
+          },
+          {
+            "name": "gastroenterologist",
+            "evidence": "Finally demanded specialist referral. GI ordered colonoscopy.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P024",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:56.280513Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient finishes their story with a reflective statement about hope, and the narrative flow concludes naturally.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "no",
+          "name": null,
+          "reasoning": "The patient states the doctor wants to try biologics but insurance is requiring them to fail other drugs first: 'Doctor wants to try biologics but insurance saying need to fail more drugs first.'",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 40,
+            "evidence": "Derek, 40",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, also pre-diabetic",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 0.25,
+            "evidence": "just diagnosed three months ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started mesalamine and prednisone. ... Mesalamine alone not enough.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Prednisone helped but blood sugar went crazy. ... Tapered off quick.",
+            "certainty": "high"
+          },
+          {
+            "name": "sulfasalazine",
+            "status": "currently_on",
+            "evidence": "Currently trying sulfasalazine.",
+            "certainty": "high"
+          },
+          {
+            "name": "biologics",
+            "status": "discussed",
+            "evidence": "Doctor wants to try biologics but insurance saying need to fail more drugs first.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": {
+        "biologic_status_detail": {
+          "status": "discussed_no_decision",
+          "reasoning": "Doctor wants to try biologics but insurance saying need to fail more drugs first.",
+          "certainty": "high"
+        },
+        "reasons": [
+          {
+            "category": "cost_insurance",
+            "evidence": "Doctor wants to try biologics but insurance saying need to fail more drugs first.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call3": {
+        "pathway_endpoint": {
+          "status": "churned",
+          "reasoning": "Doctor wants to try biologics but insurance saying need to fail more drugs first.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "new doctor",
+            "evidence": "Finally, new doctor took symptoms seriously.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P025",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:57.210270Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript covers the patient's diagnostic journey and current treatment status in a coherent narrative that reaches a natural conclusion.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "The patient explicitly states, \"Started Humira two months ago.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 22,
+            "evidence": "I'm Sophie, 22",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female, also have severe anxiety",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 0.5,
+            "evidence": "just diagnosed six months ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "Prednisone",
+            "status": "stopped",
+            "evidence": "Started treatment immediately. Prednisone and mesalamine. Prednisone caused mood swings. With anxiety already bad, was unbearable. Tapered quickly.",
+            "certainty": "high"
+          },
+          {
+            "name": "Mesalamine",
+            "status": "stopped",
+            "evidence": "Mesalamine helped little.",
+            "certainty": "high"
+          },
+          {
+            "name": "Methotrexate",
+            "status": "stopped",
+            "evidence": "Finally started methotrexate. Nausea terrible. Lost more weight. ... Methotrexate not enough.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Started Humira two months ago.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Started Humira two months ago.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Emergency Room physician",
+            "evidence": "Went to ER. They took seriously.",
+            "certainty": "high"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "GI consult. Colonoscopy confirmed Crohn's.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P026",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:58.032544Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript covers the patient's full history and their current concerns about the future, ending with a reflection on their situation.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Remicade",
+          "reasoning": "Finally went on Remicade three years ago.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 50,
+            "evidence": "Alan, 50, diagnosed with Crohn's eight years ago.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Alan",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 8.0,
+            "evidence": "diagnosed with Crohn's eight years ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started on mesalamine for Crohn's... Minimal improvement.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Used it four times now. Each time harder to taper.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "stopped",
+            "evidence": "Tried azathioprine, elevated liver enzymes. Stopped.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "stopped",
+            "evidence": "Methotrexate next, made me feel drunk all the time.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "currently_on",
+            "evidence": "Finally went on Remicade three years ago... Now failing again.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "discussed",
+            "evidence": "Doctor wants to switch to Humira but I'm running out of options.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Finally went on Remicade three years ago.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "General Practitioner",
+            "evidence": "Finally saw doctor.",
+            "certainty": "medium"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P027",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:58.970710Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The narrative concludes with the patient reflecting on their current state and future uncertainty.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "Switched from Remicade to Humira, supposed to help both conditions.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 32,
+            "evidence": "I'm Vanessa, 32.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female, also bipolar disorder and recently diagnosed with rheumatoid arthritis.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 4.0,
+            "evidence": "Diagnosed with Crohn's four years ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Switched from Remicade to Humira",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Switched from Remicade to Humira",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "currently_on",
+            "evidence": "Added methotrexate.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "currently_on",
+            "evidence": "Bipolar meds weight gain plus prednisone for flares equals 60 pound gain.",
+            "certainty": "medium"
+          },
+          {
+            "name": "Stelara",
+            "status": "discussed",
+            "evidence": "Next step discussing Stelara.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Switched from Remicade to Humira, supposed to help both conditions.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Psychiatrist",
+            "evidence": "Psychiatrist said maybe medication side effect.",
+            "certainty": "high"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "Finally saw GI. Colonoscopy showed severe Crohn's.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P028",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:06:59.919921Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript ends with the patient summarizing their current mindset and approach to daily life without evidence of an abrupt cutoff.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Entyvio",
+          "reasoning": "Finally convinced doctors to try Entyvio. Supposedly gut-selective, less systemic impact. Insurance denied three times... Finally approved. Started three months ago.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 43,
+            "evidence": "Thomas, 43, Crohn's for about six years now.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, also dealing with chronic kidney disease",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 6.0,
+            "evidence": "Crohn's for about six years now.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started conservatively with mesalamine. Helped initially. Then kidney function started declining. Nephrologist said stop immediately.",
+            "certainty": "high"
+          },
+          {
+            "name": "budesonide",
+            "status": "currently_on",
+            "evidence": "Started budesonide... Helps somewhat but not long-term solution.",
+            "certainty": "high"
+          },
+          {
+            "name": "Entyvio",
+            "status": "currently_on",
+            "evidence": "Finally convinced doctors to try Entyvio... Started three months ago.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Finally approved. Started three months ago.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "doctor",
+            "evidence": "Finally saw doctor.",
+            "certainty": "high"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "GI wants biologics but nephrologist concerned.",
+            "certainty": "medium"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P029",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:00.833558Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript covers the patient's full history from diagnosis to current status and future outlook without any abrupt cutoff.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Stelara",
+          "reasoning": "The patient explicitly states, \"Currently on Stelara.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 38,
+            "evidence": "Linda, 38, living with Crohn's for twelve years now.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female, also have thyroid disease and chronic migraines.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 12.0,
+            "evidence": "Linda, 38, living with Crohn's for twelve years now.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "Mesalamine",
+            "status": "stopped",
+            "evidence": "Mesalamine first, minimal help.",
+            "certainty": "high"
+          },
+          {
+            "name": "Prednisone",
+            "status": "stopped",
+            "evidence": "Prednisone for flares, gained 50 pounds.",
+            "certainty": "high"
+          },
+          {
+            "name": "Azathioprine",
+            "status": "stopped",
+            "evidence": "Azathioprine next. Worked for about two years. ... Then stopped working.",
+            "certainty": "high"
+          },
+          {
+            "name": "Methotrexate",
+            "status": "stopped",
+            "evidence": "Methotrexate added. Hair loss devastating.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Started Remicade. ... Humira next after Remicade failed.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "stopped",
+            "evidence": "Humira next after Remicade failed. ... But less effective. Maybe 60% improvement.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "currently_on",
+            "evidence": "Currently on Stelara.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Currently on Stelara.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Gastroenterologist",
+            "evidence": "Finally saw GI. Colonoscopy showed extensive disease.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P030",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:01.741654Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The narrative concludes with the patient reflecting on their current state of existence and outlook, indicating a natural end to the interview.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "Started Humira six months ago.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 29,
+            "evidence": "Marcus, 29",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, also dealing with severe depression and ADHD.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 2.0,
+            "evidence": "diagnosed two years ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started high-dose prednisone. Went from fit to bloated overnight.",
+            "certainty": "high"
+          },
+          {
+            "name": "Mesalamine",
+            "status": "stopped",
+            "evidence": "Tried working through it. Mesalamine, azathioprine, kept pushing.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "stopped",
+            "evidence": "Tried working through it. Mesalamine, azathioprine, kept pushing.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Started Humira six months ago. Helps some.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "discussed",
+            "evidence": "Next appointment discussing Stelara or Entyvio.",
+            "certainty": "high"
+          },
+          {
+            "name": "Entyvio",
+            "status": "discussed",
+            "evidence": "Next appointment discussing Stelara or Entyvio.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Started Humira six months ago.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "doctor",
+            "evidence": "Finally saw doctor after collapsing at work.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P031",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:02.667424Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript concludes with the patient reflecting on her life philosophy and future outlook, indicating a natural end to the conversation.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Stelara",
+          "reasoning": "The patient explicitly states, \"Started Stelara after cancer treatment.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 46,
+            "evidence": "Patricia, 46, Crohn's for fifteen years.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "I'm not the woman he married.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 15.0,
+            "evidence": "Patricia, 46, Crohn's for fifteen years.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "Mesalamine",
+            "status": "stopped",
+            "evidence": "Started standard treatment. Mesalamine, prednisone for flares.",
+            "certainty": "high"
+          },
+          {
+            "name": "Prednisone",
+            "status": "stopped",
+            "evidence": "Started standard treatment. Mesalamine, prednisone for flares.",
+            "certainty": "high"
+          },
+          {
+            "name": "Cymbalta",
+            "status": "currently_on",
+            "evidence": "Cymbalta for fibro, continuing Crohn's treatment.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Moved to biologics seven years ago. Remicade first. Worked well for three years. Then cancer diagnosis.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "currently_on",
+            "evidence": "Started Stelara after cancer treatment.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Started Stelara after cancer treatment.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "General practitioner",
+            "evidence": "Started with presumed stomach flu that wouldn't resolve. Six months of misdiagnosis before finally getting colonoscopy.",
+            "certainty": "medium"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "Moderate to severe Crohn's throughout. Started standard treatment.",
+            "certainty": "medium"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P032",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:33.652624Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient finishes their reflection on their life, marriage, and struggle with the disease.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "no",
+          "name": null,
+          "reasoning": "GI doctor wants biologics but insurance says no. Need to fail more drugs first.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 54,
+            "evidence": "Frank, 54.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, already dealing with diabetes",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 1.0,
+            "evidence": "Diagnosed with Crohn's just last year.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started mesalamine. Nothing.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Added prednisone. Blood sugar went insane. Cardiologist had fit. Stopped that quick.",
+            "certainty": "high"
+          },
+          {
+            "name": "sulfasalazine",
+            "status": "currently_on",
+            "evidence": "Now trying sulfasalazine.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": {
+        "biologic_status_detail": {
+          "status": "explicitly_rejected",
+          "reasoning": "GI doctor wants biologics but insurance says no. Need to fail more drugs first.",
+          "certainty": "high"
+        },
+        "reasons": [
+          {
+            "category": "cost_insurance",
+            "evidence": "GI doctor wants biologics but insurance says no. Need to fail more drugs first.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call3": {
+        "pathway_endpoint": {
+          "status": "explicitly_rejected",
+          "reasoning": "GI doctor wants biologics but insurance says no. Need to fail more drugs first.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "doctor",
+            "evidence": "Finally wife forced me to mention to doctor.",
+            "certainty": "high"
+          },
+          {
+            "name": "GI doctor",
+            "evidence": "Colonoscopy found inflammation throughout colon, some in small bowel. ... GI doctor wants biologics but insurance says no.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P033",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:34.683361Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient provides a concluding reflection on her current state and future outlook, indicating the narrative reached its natural end.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Stelara",
+          "reasoning": "The patient explicitly states, \"Now on Stelara. Helps both conditions somewhat.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 26,
+            "evidence": "Nina, 26.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 7.0,
+            "evidence": "Diagnosed at 19... Seven years of hell.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started with mesalamine and prednisone.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started with mesalamine and prednisone. Prednisone triggered my first hypomanic episode.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "stopped",
+            "evidence": "Started methotrexate. Helped Crohn's but made me so nauseous.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "stopped",
+            "evidence": "Started Humira at 21... Chose intestines over skin. Now on Stelara.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "currently_on",
+            "evidence": "Now on Stelara.",
+            "certainty": "high"
+          },
+          {
+            "name": "lamotrigine",
+            "status": "currently_on",
+            "evidence": "Current medication regimen: Stelara, lamotrigine, vitamin D, B12, iron, probiotic.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Now on Stelara. Helps both conditions somewhat.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Health center",
+            "evidence": "Finally went to health center. They actually took it seriously. Referred immediately.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P034",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:35.813682Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript provides a cohesive narrative from diagnosis through current status and future outlook without any abrupt ending.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Remicade",
+          "reasoning": "The patient states, \"Started Remicade year ago.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 61,
+            "evidence": "Robert, 61.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Doctor said IBS, common in older men.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 5.0,
+            "evidence": "Crohn's diagnosed five years ago but probably had it longer.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "Mesalamine",
+            "status": "stopped",
+            "evidence": "Mesalamine first. Minimal improvement.",
+            "certainty": "high"
+          },
+          {
+            "name": "Budesonide",
+            "status": "stopped",
+            "evidence": "Added budesonide. Helped temporarily. But long-term steroids not option at my age",
+            "certainty": "high"
+          },
+          {
+            "name": "Azathioprine",
+            "status": "stopped",
+            "evidence": "Tried azathioprine. Liver didn't like it. Stopped.",
+            "certainty": "high"
+          },
+          {
+            "name": "Methotrexate",
+            "status": "stopped",
+            "evidence": "Methotrexate next. The fatigue was unbearable... Couldn't function.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "currently_on",
+            "evidence": "Started Remicade year ago.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Started Remicade year ago.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Doctor",
+            "evidence": "Doctor said IBS, common in older men.",
+            "certainty": "high"
+          },
+          {
+            "name": "New doctor",
+            "evidence": "Changed doctors. New one said diverticulitis.",
+            "certainty": "high"
+          },
+          {
+            "name": "Third doctor",
+            "evidence": "Finally, third doctor ordered colonoscopy. Found Crohn's throughout colon and terminal ileum.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P035",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:36.280891Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient provides a comprehensive account of her history, current challenges, and future outlook without any abrupt cutoff.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Entyvio",
+          "reasoning": "The patient states: \"Entyvio for Crohn's since it's supposedly liver-safe.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 30,
+            "evidence": "Ashley, 30.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female, also have primary sclerosing cholangitis and autoimmune hepatitis.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 14.0,
+            "evidence": "Diagnosed with Crohn's at 16... Ashley, 30.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started mesalamine and prednisone. ... Stopped everything.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "currently_on",
+            "evidence": "Prednisone and azathioprine for autoimmune hepatitis.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Started Remicade at 17. Worked well for several years. ... Stopped everything.",
+            "certainty": "high"
+          },
+          {
+            "name": "Ursodiol",
+            "status": "currently_on",
+            "evidence": "Ursodiol for PSC.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "currently_on",
+            "evidence": "Prednisone and azathioprine for autoimmune hepatitis.",
+            "certainty": "high"
+          },
+          {
+            "name": "Entyvio",
+            "status": "currently_on",
+            "evidence": "Entyvio for Crohn's since it's supposedly liver-safe.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Entyvio for Crohn's since it's supposedly liver-safe.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "pediatric GI",
+            "evidence": "Finally pediatric GI took seriously.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P036",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:37.299499Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient finishes their narrative about their current medical and life situation without an abrupt cutoff.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Stelara",
+          "reasoning": "The patient states, \"Started on Stelara, which I hadn't tried before.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 48,
+            "evidence": "William, 48,",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, also have severe psoriasis",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 3.0,
+            "evidence": "diagnosed with Crohn's three years ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "NSAIDs",
+            "status": "stopped",
+            "evidence": "Spent two years trying different NSAIDs, which probably made everything worse.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "currently_on",
+            "evidence": "Started on Stelara, which I hadn't tried before. Helped both conditions somewhat.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "discussed",
+            "evidence": "Doctor wants to add methotrexate to Stelara.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Started on Stelara, which I hadn't tried before.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "doctor",
+            "evidence": "When I started having GI issues, doctors thought it was related to my arthritis meds.",
+            "certainty": "medium"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P037",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:38.347209Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript reaches a natural narrative conclusion with the patient reflecting on her situation and motivations.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "The patient explicitly states: 'Started Humira two years ago.'",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 34,
+            "evidence": "I'm Karen, 34",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female, also have postpartum anxiety",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 6.0,
+            "evidence": "diagnosed with Crohn's six years ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started mesalamine while breastfeeding. Limited options. Wasn't enough. Weaned baby early to start stronger meds.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "stopped",
+            "evidence": "Added azathioprine. Helped for about a year. Then joint pain started.",
+            "certainty": "medium"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Started Humira two years ago. Helps both conditions moderately.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Started Humira two years ago.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "OB",
+            "evidence": "OB said hormones.",
+            "certainty": "high"
+          },
+          {
+            "name": "Primary",
+            "evidence": "Primary said anxiety.",
+            "certainty": "high"
+          },
+          {
+            "name": "GI",
+            "evidence": "Finally got to GI. Colonoscopy showed Crohn's throughout colon.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P038",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:39.359810Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript ends with the patient discussing their perspective on the future and their current coping mechanisms, indicating a full narrative conclusion.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "The patient states he 'switched to Humira' and mentions 'Doc wants to try Stelara', implying he is currently on the Humira.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 37,
+            "evidence": "Daniel, 37, Crohn's for ten years now.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, also have ankylosing spondylitis",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 10.0,
+            "evidence": "Daniel, 37, Crohn's for ten years now.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "NSAIDs",
+            "status": "stopped",
+            "evidence": "Rheumatologist prescribed NSAIDs. Took them for three years. Destroyed my kidneys.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Started biologics immediately. Remicade for both conditions... Then Remicade stopped working.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Switched to Humira. Less effective. Maybe 40% improvement.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "discussed",
+            "evidence": "Doc wants to try Stelara. Might help both conditions. Kidney doctor reluctant.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "The patient states he 'switched to Humira' and 'Doc wants to try Stelara', implying he is currently on the Humira.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Rheumatologist",
+            "evidence": "Rheumatologist prescribed NSAIDs.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P039",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:40.273725Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript concludes with a reflection on the patient's current mindset and future outlook without any signs of abrupt cutoff.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "The patient states: \"Switched to Humira three years ago. Helps somewhat.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 41,
+            "evidence": "Michelle, 41, dealing with Crohn's for about eight years.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female, divorced, single mom to teenage son.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 8.0,
+            "evidence": "Michelle, 41, dealing with Crohn's for about eight years.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started mesalamine. Minimal help.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Added prednisone for flares. Weight gain horrible.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "stopped",
+            "evidence": "Started methotrexate. Hair fell out.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Switched to Humira three years ago. Helps somewhat.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "discussed",
+            "evidence": "Looking at switching to Stelara. Might help both conditions.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "The patient states: \"Switched to Humira three years ago. Helps somewhat.\"",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "GI",
+            "evidence": "Finally saw GI.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P040",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:41.164657Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript concludes with the patient reflecting on their current state and future outlook without any signs of abrupt truncation.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "The patient explicitly states, \"Tried Humira next. Currently on it but not as effective.\"",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 52,
+            "evidence": "George, 52",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, recently also diagnosed with osteoporosis",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 7.0,
+            "evidence": "diagnosed with Crohn's seven years ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "Prednisone",
+            "status": "stopped",
+            "evidence": "Started aggressive treatment immediately. Prednisone and azathioprine combo... Prednisone sent blood sugars through roof. Needed insulin. Still on it.",
+            "certainty": "high"
+          },
+          {
+            "name": "Azathioprine",
+            "status": "stopped",
+            "evidence": "Azathioprine helped for about two years. Then liver enzymes started climbing. Had to stop.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Switched to Remicade... Then developed antibodies. Stopped working completely within weeks.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Tried Humira next. Currently on it but not as effective.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "discussed",
+            "evidence": "GI wants to add methotrexate.",
+            "certainty": "high"
+          },
+          {
+            "name": "clinical trial drug",
+            "status": "discussed",
+            "evidence": "Next appointment discussing clinical trial. New drug.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Currently on it but not as effective.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "doctor",
+            "evidence": "After three months, finally saw doctor.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P041",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:41.983873Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript covers the patient's diagnostic history, past and current treatments, and present life situation, ending with a reflective summary.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Stelara",
+          "reasoning": "Currently on Stelara for Crohn's.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 35,
+            "evidence": "I'm Julie, 35.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female, also dealing with severe endometriosis",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 7.0,
+            "evidence": "35. Diagnosed with Crohn's at 28.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started me immediately on prednisone and mesalamine.",
+            "certainty": "high"
+          },
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started me immediately on prednisone and mesalamine.",
+            "certainty": "high"
+          },
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Finally went on Remicade. Worked pretty well for about four years. Then it stopped working.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "currently_on",
+            "evidence": "Currently on Stelara for Crohn's.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "discussed",
+            "evidence": "Doctor wants to try combination therapy next. Stelara plus methotrexate.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Currently on Stelara for Crohn's.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "hospital",
+            "evidence": "Hospitalization led to diagnosis.",
+            "certainty": "high"
+          },
+          {
+            "name": "gastroenterologist",
+            "evidence": "Remember the GI saying my intestines looked like a war zone.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P042",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:42.804021Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The narrative concludes with reflective thoughts on the patient's current life situation and future outlook without any signs of abrupt truncation.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "Finally started Humira. Helps both Crohn's and psoriatic arthritis.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 39,
+            "evidence": "Kevin, 39.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, married, two young kids who don't understand why daddy's always tired or in bathroom.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 5.0,
+            "evidence": "Crohn's hit me five years ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started on mesalamine and short course prednisone. Helped initially but wasn't lasting solution.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started on mesalamine and short course prednisone.",
+            "certainty": "high"
+          },
+          {
+            "name": "sulfasalazine",
+            "status": "stopped",
+            "evidence": "Tried adding sulfasalazine. Allergic reaction - hives everywhere.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "stopped",
+            "evidence": "Switched to methotrexate. The nausea was unbearable.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Finally started Humira. Helps both Crohn's and psoriatic arthritis. About 70% improvement.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Finally started Humira. Helps both Crohn's and psoriatic arthritis.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Doctor",
+            "evidence": "Blood in stool finally sent me to doctor.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P043",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:43.663784Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript ends with the patient reflecting on her situation and perspective, showing no signs of being cut off in the middle of a sentence or thought.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "The patient states: 'Humira losing effectiveness. But scared of transition period.'",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 44,
+            "evidence": "Sandra, 44.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female, also have Hashimoto's thyroiditis",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 12.0,
+            "evidence": "Diagnosed with Crohn's twelve years ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "Remicade",
+            "status": "stopped",
+            "evidence": "Started Remicade. Worked beautifully for five years. ... Then developed antibodies. Crashed hard.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Tried Humira next. Moderate help. Maybe 60%. ... Humira losing effectiveness.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "currently_on",
+            "evidence": "Added methotrexate. Hair thinned but improvement to maybe 75%. Manageable.",
+            "certainty": "high"
+          },
+          {
+            "name": "Stelara",
+            "status": "discussed",
+            "evidence": "Looking at Stelara next.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Humira losing effectiveness. But scared of transition period.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "three doctors",
+            "evidence": "Took two years and three doctors to get diagnosis.",
+            "certainty": "medium"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P044",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:44.509765Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript ends with the patient reflecting on their current state of mind and does not appear to cut off mid-sentence.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "no",
+          "name": null,
+          "reasoning": "Doctor wants to try biologics but I'm terrified.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 27,
+            "evidence": "Peter, 27, diagnosed two years ago",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, also ADHD and anxiety.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 2.0,
+            "evidence": "diagnosed two years ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started mesalamine suppositories and oral. Awkward and minimal help.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Added prednisone. Energy through roof but anxiety went crazy.",
+            "certainty": "high"
+          },
+          {
+            "name": "azathioprine",
+            "status": "currently_on",
+            "evidence": "Started azathioprine six months ago. Helps maybe 40%.",
+            "certainty": "high"
+          },
+          {
+            "name": "biologics",
+            "status": "discussed",
+            "evidence": "Doctor wants to try biologics but I'm terrified.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": {
+        "biologic_status_detail": {
+          "status": "discussed_no_decision",
+          "reasoning": "The doctor has proposed biologics, but the patient remains hesitant and has not yet committed to starting them, stating: 'Doctor wants to try biologics but I'm terrified.'",
+          "certainty": "high"
+        },
+        "reasons": [
+          {
+            "category": "patient_fear",
+            "evidence": "Already immunocompromised enough with stress and lack of sleep. What if I get sick and miss more work?",
+            "certainty": "high"
+          },
+          {
+            "category": "patient_fear",
+            "evidence": "Plus, needles trigger anxiety. Bad.",
+            "certainty": "high"
+          },
+          {
+            "category": "patient_fear",
+            "evidence": "What if makes worse? What if doesn't work?",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call3": {
+        "pathway_endpoint": {
+          "status": "discussed_no_decision",
+          "reasoning": "Doctor wants to try biologics but I'm terrified.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Gastroenterologist",
+            "evidence": "Finally saw GI after particularly bad week where I couldn't leave apartment.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P045",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:45.509258Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "likely_truncated",
+          "reasoning": "The transcript ends with an ellipses following a sentence about the future, suggesting the conversation was interrupted or concluded abruptly.",
+          "certainty": "medium"
+        },
+        "biologic_status": {
+          "on_biologic": "no",
+          "name": null,
+          "reasoning": "Doctor mentioned biologics might be next step but insurance wants me to fail more medications first.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 33,
+            "evidence": "Rosa here, 33 years old.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Female, also have PCOS and insulin resistance.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 0.33,
+            "evidence": "Got diagnosed with Crohn's about four months ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "budesonide",
+            "status": "stopped",
+            "evidence": "Started on budesonide and mesalamine. Some improvement but not much.",
+            "certainty": "medium"
+          },
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started on budesonide and mesalamine. Some improvement but not much.",
+            "certainty": "medium"
+          },
+          {
+            "name": "biologics",
+            "status": "discussed",
+            "evidence": "Doctor mentioned biologics might be next step but insurance wants me to fail more medications first.",
+            "certainty": "high"
+          },
+          {
+            "name": "methotrexate",
+            "status": "currently_on",
+            "evidence": "Currently trying methotrexate.",
+            "certainty": "high"
+          },
+          {
+            "name": "folic acid",
+            "status": "currently_on",
+            "evidence": "Taking folic acid helps a bit.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": {
+        "biologic_status_detail": {
+          "status": "discussed_no_decision",
+          "reasoning": "The patient states that the doctor mentioned biologics might be the next step, but insurance requires failing more medications first.",
+          "certainty": "high"
+        },
+        "reasons": [
+          {
+            "category": "cost_insurance",
+            "evidence": "Doctor mentioned biologics might be next step but insurance wants me to fail more medications first.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call3": {
+        "pathway_endpoint": {
+          "status": "discussed_no_decision",
+          "reasoning": "Doctor mentioned biologics might be next step but insurance wants me to fail more medications first.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "General Physician",
+            "evidence": "Doctors kept blaming everything on my weight.",
+            "certainty": "medium"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "Finally demanded colonoscopy. Found inflammation in terminal ileum and ascending colon.",
+            "certainty": "medium"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P046",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:07:46.395851Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript ends with a complete thought regarding the financial burden of his insurance and treatment, showing no signs of abrupt termination.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "yes",
+          "name": "Humira",
+          "reasoning": "The patient explicitly states, 'Currently on Humira.'",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 49,
+            "evidence": "Ben, 49, male.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Ben, 49, male.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 1.5,
+            "evidence": "Crohn's diagnosis came eighteen months ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "Prednisone",
+            "status": "stopped",
+            "evidence": "Prednisone made blood sugar go haywire.",
+            "certainty": "high"
+          },
+          {
+            "name": "Mesalamine",
+            "status": "stopped",
+            "evidence": "Mesalamine didn't touch it.",
+            "certainty": "high"
+          },
+          {
+            "name": "Humira",
+            "status": "currently_on",
+            "evidence": "Currently on Humira.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": null,
+      "call3": {
+        "pathway_endpoint": {
+          "status": "on_biologic",
+          "reasoning": "Currently on Humira.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "doctor",
+            "evidence": "Finally, wife forced me to see doctor after finding blood in toilet.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P047",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:08:17.115896Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "heavily_truncated",
+          "reasoning": "The transcript ends abruptly in the middle of a sentence about the patient's children.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "no",
+          "name": null,
+          "reasoning": "The patient mentions taking prednisone, mesalamine, and methotrexate, but none of these are biologics.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 41,
+            "evidence": "Donna, 41, female.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Donna, 41, female.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 0.416,
+            "evidence": "Diagnosed with Crohn's five months ago",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started on prednisone and mesalamine. Prednisone helped but gain 30 pounds in two months.",
+            "certainty": "high"
+          },
+          {
+            "name": "mesalamine",
+            "status": "currently_on",
+            "evidence": "Started on prednisone and mesalamine.",
+            "certainty": "medium"
+          },
+          {
+            "name": "methotrexate",
+            "status": "currently_on",
+            "evidence": "Trying methotrexate now.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": {
+        "biologic_status_detail": {
+          "status": "not_mentioned",
+          "reasoning": "The transcript discusses the patient's use of prednisone, mesalamine, and methotrexate, but there is no mention of biologics being discussed by the patient or their doctor.",
+          "certainty": "high"
+        },
+        "reasons": null
+      },
+      "call3": {
+        "pathway_endpoint": {
+          "status": "discussed_no_decision",
+          "reasoning": "The patient is currently on methotrexate and the doctor says to give it more time, with no mention of initiating a biologic.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "General practitioner or non-specialist",
+            "evidence": "Spent three years being told it was IBS, stress, hormones, everything but actual problem.",
+            "certainty": "medium"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "Finally got to good GI who actually listened.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P048",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:08:47.604232Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The patient finishes his narrative about his current living situation, financial concerns, and emotional state regarding his diagnosis, indicating a natural conclusion to the conversation.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "no",
+          "name": null,
+          "reasoning": "The patient states 'Doctor wants biologics after I heal from surgery' and is currently only taking 'Mesalamine and antibiotics'.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 56,
+            "evidence": "Larry, 56.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Male, already dealing with enough",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 0.057,
+            "evidence": "Just found out I have Crohn's three weeks ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "Mesalamine",
+            "status": "currently_on",
+            "evidence": "Mesalamine and antibiotics for now.",
+            "certainty": "high"
+          },
+          {
+            "name": "antibiotics",
+            "status": "currently_on",
+            "evidence": "Mesalamine and antibiotics for now.",
+            "certainty": "high"
+          },
+          {
+            "name": "biologics",
+            "status": "discussed",
+            "evidence": "Doctor wants biologics after I heal from surgery.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": {
+        "biologic_status_detail": {
+          "status": "discussed_no_decision",
+          "reasoning": "The patient states 'Doctor wants biologics after I heal from surgery', indicating a plan for the future rather than a rejection or current initiation.",
+          "certainty": "high"
+        },
+        "reasons": [
+          {
+            "category": "cost_insurance",
+            "evidence": "Savings depleting fast. Surgery bills coming in. Six figures already. Insurance fighting everything. May have to sell house.",
+            "certainty": "medium"
+          }
+        ]
+      },
+      "call3": {
+        "pathway_endpoint": {
+          "status": "discussed_no_decision",
+          "reasoning": "Doctor wants biologics after I heal from surgery.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "ER",
+            "evidence": "Went to ER with severe pain.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P049",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:08:48.525725Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "heavily_truncated",
+          "reasoning": "The transcript ends abruptly in the middle of a sentence.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "no",
+          "name": null,
+          "reasoning": "The patient mentions the GI discussed biologics, but she has not started one yet.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 28,
+            "evidence": "Tammy, 28, female.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "female",
+            "evidence": "Tammy, 28, female.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 0.08,
+            "evidence": "Crohn's diagnosed last month",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Started on prednisone in hospital. Made me manic.",
+            "certainty": "high"
+          },
+          {
+            "name": "mesalamine",
+            "status": "currently_on",
+            "evidence": "Now on mesalamine.",
+            "certainty": "high"
+          },
+          {
+            "name": "biologics",
+            "status": "discussed",
+            "evidence": "Mentioned biologics.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": {
+        "biologic_status_detail": {
+          "status": "discussed_no_decision",
+          "reasoning": "The GI discussed biologics but the patient is currently evaluating the risks, with no decision reached.",
+          "certainty": "high"
+        },
+        "reasons": [
+          {
+            "category": "patient_fear",
+            "evidence": "But reading side effects online. Cancer risk? Serious infections?",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call3": {
+        "pathway_endpoint": {
+          "status": "discussed_no_decision",
+          "reasoning": "GI wants to be aggressive given my age and extent of disease. Mentioned biologics.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "Surgeon",
+            "evidence": "Surgeon found inflammation throughout intestines.",
+            "certainty": "high"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "GI wants to be aggressive given my age and extent of disease.",
+            "certainty": "high"
+          }
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "patient_id": "P050",
+        "model_used": "gemini/gemini-3.1-flash-lite",
+        "timestamp": "2026-05-26T15:08:49.605657Z"
+      },
+      "call1": {
+        "churn_detection": {
+          "completeness": "complete",
+          "reasoning": "The transcript ends with a coherent conclusion about the patient's perspective on his situation.",
+          "certainty": "high"
+        },
+        "biologic_status": {
+          "on_biologic": "no",
+          "name": null,
+          "reasoning": "GI wants to try biologics but lung doctor says too risky with COPD.",
+          "certainty": "high"
+        },
+        "sociodemographics": {
+          "age": {
+            "value": 62,
+            "evidence": "Victor, 62, male.",
+            "certainty": "high"
+          },
+          "sex": {
+            "value": "male",
+            "evidence": "Victor, 62, male.",
+            "certainty": "high"
+          },
+          "years_with_crohns": {
+            "value": 0.66,
+            "evidence": "Diagnosed with Crohn's eight months ago.",
+            "certainty": "high"
+          }
+        },
+        "treatment_journey": [
+          {
+            "name": "mesalamine",
+            "status": "stopped",
+            "evidence": "Started treatment with mesalamine. Nothing.",
+            "certainty": "high"
+          },
+          {
+            "name": "prednisone",
+            "status": "stopped",
+            "evidence": "Tried prednisone but breathing got worse. Respiratory doctor said absolutely not.",
+            "certainty": "high"
+          },
+          {
+            "name": "budesonide",
+            "status": "currently_on",
+            "evidence": "Now on budesonide. Helps a little.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call2": {
+        "biologic_status_detail": {
+          "status": "explicitly_rejected",
+          "reasoning": "GI wants to try biologics but lung doctor says too risky with COPD.",
+          "certainty": "high"
+        },
+        "reasons": [
+          {
+            "category": "doctor_choice",
+            "evidence": "GI wants to try biologics but lung doctor says too risky with COPD.",
+            "certainty": "high"
+          }
+        ]
+      },
+      "call3": {
+        "pathway_endpoint": {
+          "status": "explicitly_rejected",
+          "reasoning": "GI wants to try biologics but lung doctor says too risky with COPD.",
+          "certainty": "high"
+        },
+        "referral_pathway": [
+          {
+            "name": "General Practitioner",
+            "evidence": "Started with what I thought was stomach flu. But lasted months. Lost 50 pounds. Everyone thought cancer.",
+            "certainty": "medium"
+          },
+          {
+            "name": "Gastroenterologist",
+            "evidence": "GI wants to try biologics but lung doctor says too risky with COPD.",
+            "certainty": "high"
+          }
+        ]
+      }
+    }
+  ]
+}

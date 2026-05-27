@@ -1,0 +1,100 @@
+{
+  "ledger": {
+    "patient_id": "P033",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P033",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:34.683361Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The patient provides a concluding reflection on her current state and future outlook, indicating the narrative reached its natural end.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Stelara",
+        "reasoning": "The patient explicitly states, \"Now on Stelara. Helps both conditions somewhat.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 26,
+          "evidence": "Nina, 26.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 7.0,
+          "evidence": "Diagnosed at 19... Seven years of hell.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started with mesalamine and prednisone.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started with mesalamine and prednisone. Prednisone triggered my first hypomanic episode.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "stopped",
+          "evidence": "Started methotrexate. Helped Crohn's but made me so nauseous.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "stopped",
+          "evidence": "Started Humira at 21... Chose intestines over skin. Now on Stelara.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "currently_on",
+          "evidence": "Now on Stelara.",
+          "certainty": "high"
+        },
+        {
+          "name": "lamotrigine",
+          "status": "currently_on",
+          "evidence": "Current medication regimen: Stelara, lamotrigine, vitamin D, B12, iron, probiotic.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Now on Stelara. Helps both conditions somewhat.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Health center",
+          "evidence": "Finally went to health center. They actually took it seriously. Referred immediately.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

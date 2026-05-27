@@ -1,0 +1,111 @@
+{
+  "ledger": {
+    "patient_id": "P022",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P022",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:50.903152Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript ends with a coherent conclusion about the patient's current outlook and acceptance of their situation.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "The patient states he switched to Humira after Remicade stopped working and is currently taking it alongside methotrexate.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 35,
+          "evidence": "James, 35.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, now also dealing with medication-induced diabetes",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 2.0,
+          "evidence": "Crohn's hit me like a truck two years ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "Prednisone",
+          "status": "stopped",
+          "evidence": "High-dose prednisone for two months. ... Tapered prednisone",
+          "certainty": "high"
+        },
+        {
+          "name": "Azathioprine",
+          "status": "stopped",
+          "evidence": "started azathioprine. Helped minimally.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Remicade worked initially. ... But after year, developed antibodies. Stopped working.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Switched to Humira. The every two week injection manageable",
+          "certainty": "high"
+        },
+        {
+          "name": "Methotrexate",
+          "status": "currently_on",
+          "evidence": "Doctor added methotrexate. ... But combination helping more than Humira alone.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "discussed",
+          "evidence": "Next step if Humira/methotrexate combo fails is Stelara or Entyvio.",
+          "certainty": "high"
+        },
+        {
+          "name": "Entyvio",
+          "status": "discussed",
+          "evidence": "Next step if Humira/methotrexate combo fails is Stelara or Entyvio.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "The patient states he switched to Humira after Remicade stopped working and is currently taking it alongside methotrexate.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Emergency room",
+          "evidence": "Emergency room visit started everything.",
+          "certainty": "high"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "GI pushed for biologics quickly given severity.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

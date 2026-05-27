@@ -1,0 +1,94 @@
+{
+  "ledger": {
+    "patient_id": "P042",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P042",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:42.804021Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The narrative concludes with reflective thoughts on the patient's current life situation and future outlook without any signs of abrupt truncation.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "Finally started Humira. Helps both Crohn's and psoriatic arthritis.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 39,
+          "evidence": "Kevin, 39.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, married, two young kids who don't understand why daddy's always tired or in bathroom.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 5.0,
+          "evidence": "Crohn's hit me five years ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started on mesalamine and short course prednisone. Helped initially but wasn't lasting solution.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started on mesalamine and short course prednisone.",
+          "certainty": "high"
+        },
+        {
+          "name": "sulfasalazine",
+          "status": "stopped",
+          "evidence": "Tried adding sulfasalazine. Allergic reaction - hives everywhere.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "stopped",
+          "evidence": "Switched to methotrexate. The nausea was unbearable.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Finally started Humira. Helps both Crohn's and psoriatic arthritis. About 70% improvement.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Finally started Humira. Helps both Crohn's and psoriatic arthritis.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Doctor",
+          "evidence": "Blood in stool finally sent me to doctor.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

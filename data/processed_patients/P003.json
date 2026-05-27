@@ -1,0 +1,106 @@
+{
+  "ledger": {
+    "patient_id": "P003",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P003",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:05:34.869544Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The patient provides a comprehensive overview of her history, current status, and future concerns, and there is no indication of an abrupt cutoff.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Stelara",
+        "reasoning": "Currently on Stelara every 8 weeks.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 28,
+          "evidence": "I'm Emma, 28 years old",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female, also have anxiety disorder and PCOS.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 12.0,
+          "evidence": "28 years old, diagnosed with Crohn's at 16.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "sulfasalazine",
+          "status": "stopped",
+          "evidence": "started with sulfasalazine",
+          "certainty": "high"
+        },
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "then mesalamine",
+          "certainty": "high"
+        },
+        {
+          "name": "6-MP",
+          "status": "stopped",
+          "evidence": "then 6-MP",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "stopped",
+          "evidence": "then methotrexate",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Finally started Remicade infusions at 19... after three years, developed antibodies and it stopped working.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "stopped",
+          "evidence": "Switched to Humira, worked for about two years, then lost effectiveness.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "currently_on",
+          "evidence": "Currently on Stelara every 8 weeks.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Currently on Stelara every 8 weeks.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "multiple doctors",
+          "evidence": "Saw multiple doctors over two years before getting diagnosed.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

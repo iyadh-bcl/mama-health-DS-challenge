@@ -1,0 +1,118 @@
+{
+  "ledger": {
+    "patient_id": "P002",
+    "call1_status": "success",
+    "call2_status": "success",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P002",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:05:34.123759Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The patient provides a comprehensive overview of their current medical and financial situation, concluding with future plans for an upcoming appointment.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "no",
+        "name": null,
+        "reasoning": "The patient states: Dr. Patel wanted to start me on a biologic, specifically Stelara, but my insurance classified it as tier 4... we're currently trying to get financial assistance from the drug company.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 42,
+          "evidence": "I'm 42",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "male",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 3.0,
+          "evidence": "The digestive issues started about three years ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started on prednisone for immediate relief",
+          "certainty": "high"
+        },
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Then tried mesalamine, no improvement.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "stopped",
+          "evidence": "Moved to methotrexate, but my liver wasn't happy",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "discussed",
+          "evidence": "Dr. Patel wanted to start me on a biologic, specifically Stelara, but my insurance classified it as tier 4",
+          "certainty": "high"
+        },
+        {
+          "name": "budesonide",
+          "status": "currently_on",
+          "evidence": "Meanwhile, I'm on budesonide",
+          "certainty": "high"
+        },
+        {
+          "name": "iron supplements",
+          "status": "currently_on",
+          "evidence": "I'm on iron supplements",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": {
+      "biologic_status_detail": {
+        "status": "discussed_no_decision",
+        "reasoning": "Dr. Patel wants to start the patient on Stelara, but the patient cannot currently afford the $800 per month copay and is waiting for financial assistance.",
+        "certainty": "high"
+      },
+      "reasons": [
+        {
+          "category": "cost_insurance",
+          "evidence": "Dr. Patel wanted to start me on a biologic, specifically Stelara, but my insurance classified it as tier 4, meaning I'd have to pay $800 per month even with coverage.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call3": {
+      "pathway_endpoint": {
+        "status": "churned",
+        "reasoning": "The patient states: Dr. Patel wanted to start me on a biologic, specifically Stelara, but my insurance classified it as tier 4... we're currently trying to get financial assistance from the drug company.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "endocrinologist",
+          "evidence": "At first, my endocrinologist thought it was diabetic gastroparesis",
+          "certainty": "high"
+        },
+        {
+          "name": "gastroenterologist",
+          "evidence": "The gastroenterologist, Dr. Patel, was thorough.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

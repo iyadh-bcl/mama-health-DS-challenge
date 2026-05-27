@@ -1,0 +1,95 @@
+{
+  "ledger": {
+    "patient_id": "P048",
+    "call1_status": "success",
+    "call2_status": "success",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P048",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:08:47.604232Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The patient finishes his narrative about his current living situation, financial concerns, and emotional state regarding his diagnosis, indicating a natural conclusion to the conversation.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "no",
+        "name": null,
+        "reasoning": "The patient states 'Doctor wants biologics after I heal from surgery' and is currently only taking 'Mesalamine and antibiotics'.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 56,
+          "evidence": "Larry, 56.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, already dealing with enough",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 0.057,
+          "evidence": "Just found out I have Crohn's three weeks ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "Mesalamine",
+          "status": "currently_on",
+          "evidence": "Mesalamine and antibiotics for now.",
+          "certainty": "high"
+        },
+        {
+          "name": "antibiotics",
+          "status": "currently_on",
+          "evidence": "Mesalamine and antibiotics for now.",
+          "certainty": "high"
+        },
+        {
+          "name": "biologics",
+          "status": "discussed",
+          "evidence": "Doctor wants biologics after I heal from surgery.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": {
+      "biologic_status_detail": {
+        "status": "discussed_no_decision",
+        "reasoning": "The patient states 'Doctor wants biologics after I heal from surgery', indicating a plan for the future rather than a rejection or current initiation.",
+        "certainty": "high"
+      },
+      "reasons": [
+        {
+          "category": "cost_insurance",
+          "evidence": "Savings depleting fast. Surgery bills coming in. Six figures already. Insurance fighting everything. May have to sell house.",
+          "certainty": "medium"
+        }
+      ]
+    },
+    "call3": {
+      "pathway_endpoint": {
+        "status": "discussed_no_decision",
+        "reasoning": "Doctor wants biologics after I heal from surgery.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "ER",
+          "evidence": "Went to ER with severe pain.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

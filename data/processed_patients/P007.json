@@ -1,0 +1,82 @@
+{
+  "ledger": {
+    "patient_id": "P007",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P007",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:05:40.659799Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript ends with the patient discussing their ongoing management and future concerns without an abrupt cutoff.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Entyvio",
+        "reasoning": "The patient explicitly states, \"Started Entyvio as insurance covered it better than others\" and \"Been stable-ish for 18 months.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 45,
+          "evidence": "I'm Jennifer, 45",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female, also hypothyroid and have fibromyalgia.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 3.0,
+          "evidence": "diagnosed with Crohn's three years ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started aggressively with prednisone and azathioprine combination... Tapered off after three months.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "currently_on",
+          "evidence": "Started aggressively with prednisone and azathioprine combination... Azathioprine alone wasn't holding things.",
+          "certainty": "medium"
+        },
+        {
+          "name": "Entyvio",
+          "status": "currently_on",
+          "evidence": "Started Entyvio as insurance covered it better than others... Been stable-ish for 18 months.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Started Entyvio as insurance covered it better than others and been stable-ish for 18 months.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "GI doctor",
+          "evidence": "Finally, severe weight loss and persistent diarrhea led to proper GI workup.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

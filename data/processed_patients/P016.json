@@ -1,0 +1,110 @@
+{
+  "ledger": {
+    "patient_id": "P016",
+    "call1_status": "success",
+    "call2_status": "success",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P016",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:06:43.258695Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The narrative concludes with the patient's current internal conflict regarding treatment, suggesting no abrupt cutoff in the transcript.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "no",
+        "name": null,
+        "reasoning": "The patient states: 'Now they want to put me on these injection things. Biologics.'",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 44,
+          "evidence": "I'm Steve, 44 years old",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, also dealing with a bad back",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 2.0,
+          "evidence": "my Crohn's story started about two years ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Started with something called mesalamine. Didn't do much.",
+          "certainty": "high"
+        },
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Then prednisone which helped with the gut but made me crazy. I mean, seriously aggressive. Almost got into a fight at work. Had to get off that stuff.",
+          "certainty": "high"
+        },
+        {
+          "name": "biologics",
+          "status": "discussed",
+          "evidence": "Now they want to put me on these injection things. Biologics.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": {
+      "biologic_status_detail": {
+        "status": "discussed_no_decision",
+        "reasoning": "The patient states: 'Now they want to put me on these injection things. Biologics.' but has not yet started them due to coverage issues and personal hesitation.",
+        "certainty": "high"
+      },
+      "reasons": [
+        {
+          "category": "cost_insurance",
+          "evidence": "The cost is insane. Insurance through the union is usually good but they're fighting coverage. Something about needing to fail more medications first.",
+          "certainty": "high"
+        },
+        {
+          "category": "patient_fear",
+          "evidence": "Heard they suppress your immune system. In construction, always getting cuts, exposed to stuff. Seems risky.",
+          "certainty": "high"
+        },
+        {
+          "category": "access",
+          "evidence": "Doc mentioned there's programs to help with medication costs but the paperwork... I'm not good with that stuff.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call3": {
+      "pathway_endpoint": {
+        "status": "discussed_no_decision",
+        "reasoning": "The patient states: 'Now they want to put me on these injection things. Biologics.' but expresses hesitation and insurance hurdles, indicating no final decision has been made.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "ER physician",
+          "evidence": "it all came to a head when I ended up in the ER.",
+          "certainty": "high"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "The GI doc, young guy, very enthusiastic, started explaining all these medication options.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

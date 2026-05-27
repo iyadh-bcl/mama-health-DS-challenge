@@ -1,0 +1,94 @@
+{
+  "ledger": {
+    "patient_id": "P006",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P006",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:05:39.738107Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript covers the patient's full history from diagnosis to current treatment status and personal reflections without abrupt ending.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Stelara",
+        "reasoning": "Finally got Stelara approved, been on it for two years.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 38,
+          "evidence": "Tom here, 38",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, also have depression",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 10.0,
+          "evidence": "dealing with Crohn's for about ten years now.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "methotrexate",
+          "status": "stopped",
+          "evidence": "Post-surgery, started on methotrexate, helped for a while but developed lung problems, possibly drug-related.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "stopped",
+          "evidence": "Switched to Humira, miraculous for three years, then stopped working.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "so tried Remicade. Developed antibodies within six months.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "currently_on",
+          "evidence": "Finally got Stelara approved, been on it for two years.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "discussed",
+          "evidence": "Dr. Anderson, my GI, is pushing for combo therapy - adding methotrexate back at lower dose with Stelara.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Finally got Stelara approved, been on it for two years.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Gastroenterologist",
+          "evidence": "Dr. Anderson, my GI, is pushing for combo therapy",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

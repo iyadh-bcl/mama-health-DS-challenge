@@ -1,0 +1,100 @@
+{
+  "ledger": {
+    "patient_id": "P049",
+    "call1_status": "success",
+    "call2_status": "success",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P049",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:08:48.525725Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "heavily_truncated",
+        "reasoning": "The transcript ends abruptly in the middle of a sentence.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "no",
+        "name": null,
+        "reasoning": "The patient mentions the GI discussed biologics, but she has not started one yet.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 28,
+          "evidence": "Tammy, 28, female.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Tammy, 28, female.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 0.08,
+          "evidence": "Crohn's diagnosed last month",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started on prednisone in hospital. Made me manic.",
+          "certainty": "high"
+        },
+        {
+          "name": "mesalamine",
+          "status": "currently_on",
+          "evidence": "Now on mesalamine.",
+          "certainty": "high"
+        },
+        {
+          "name": "biologics",
+          "status": "discussed",
+          "evidence": "Mentioned biologics.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": {
+      "biologic_status_detail": {
+        "status": "discussed_no_decision",
+        "reasoning": "The GI discussed biologics but the patient is currently evaluating the risks, with no decision reached.",
+        "certainty": "high"
+      },
+      "reasons": [
+        {
+          "category": "patient_fear",
+          "evidence": "But reading side effects online. Cancer risk? Serious infections?",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call3": {
+      "pathway_endpoint": {
+        "status": "discussed_no_decision",
+        "reasoning": "GI wants to be aggressive given my age and extent of disease. Mentioned biologics.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Surgeon",
+          "evidence": "Surgeon found inflammation throughout intestines.",
+          "certainty": "high"
+        },
+        {
+          "name": "Gastroenterologist",
+          "evidence": "GI wants to be aggressive given my age and extent of disease.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

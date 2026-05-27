@@ -1,0 +1,106 @@
+{
+  "ledger": {
+    "patient_id": "P029",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P029",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:00.833558Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript covers the patient's full history from diagnosis to current status and future outlook without any abrupt cutoff.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Stelara",
+        "reasoning": "The patient explicitly states, \"Currently on Stelara.\"",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 38,
+          "evidence": "Linda, 38, living with Crohn's for twelve years now.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "female",
+          "evidence": "Female, also have thyroid disease and chronic migraines.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 12.0,
+          "evidence": "Linda, 38, living with Crohn's for twelve years now.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "Mesalamine",
+          "status": "stopped",
+          "evidence": "Mesalamine first, minimal help.",
+          "certainty": "high"
+        },
+        {
+          "name": "Prednisone",
+          "status": "stopped",
+          "evidence": "Prednisone for flares, gained 50 pounds.",
+          "certainty": "high"
+        },
+        {
+          "name": "Azathioprine",
+          "status": "stopped",
+          "evidence": "Azathioprine next. Worked for about two years. ... Then stopped working.",
+          "certainty": "high"
+        },
+        {
+          "name": "Methotrexate",
+          "status": "stopped",
+          "evidence": "Methotrexate added. Hair loss devastating.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Started Remicade. ... Humira next after Remicade failed.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "stopped",
+          "evidence": "Humira next after Remicade failed. ... But less effective. Maybe 60% improvement.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "currently_on",
+          "evidence": "Currently on Stelara.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Currently on Stelara.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Gastroenterologist",
+          "evidence": "Finally saw GI. Colonoscopy showed extensive disease.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

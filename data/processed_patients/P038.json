@@ -1,0 +1,88 @@
+{
+  "ledger": {
+    "patient_id": "P038",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P038",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:39.359810Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript ends with the patient discussing their perspective on the future and their current coping mechanisms, indicating a full narrative conclusion.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "The patient states he 'switched to Humira' and mentions 'Doc wants to try Stelara', implying he is currently on the Humira.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 37,
+          "evidence": "Daniel, 37, Crohn's for ten years now.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, also have ankylosing spondylitis",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 10.0,
+          "evidence": "Daniel, 37, Crohn's for ten years now.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "NSAIDs",
+          "status": "stopped",
+          "evidence": "Rheumatologist prescribed NSAIDs. Took them for three years. Destroyed my kidneys.",
+          "certainty": "high"
+        },
+        {
+          "name": "Remicade",
+          "status": "stopped",
+          "evidence": "Started biologics immediately. Remicade for both conditions... Then Remicade stopped working.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Switched to Humira. Less effective. Maybe 40% improvement.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "discussed",
+          "evidence": "Doc wants to try Stelara. Might help both conditions. Kidney doctor reluctant.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "The patient states he 'switched to Humira' and 'Doc wants to try Stelara', implying he is currently on the Humira.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "Rheumatologist",
+          "evidence": "Rheumatologist prescribed NSAIDs.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

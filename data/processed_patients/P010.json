@@ -1,0 +1,105 @@
+{
+  "ledger": {
+    "patient_id": "P010",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P010",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:05:43.359045Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The transcript ends with the patient discussing their ongoing management and future outlook rather than cutting off mid-sentence.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "Been on Humira two years.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 48,
+          "evidence": "Mark here, 48, diagnosed with Crohn's five years ago.",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, type 2 diabetic, and now dealing with Crohn's-related arthritis.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 5.0,
+          "evidence": "Mark here, 48, diagnosed with Crohn's five years ago.",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Tapered prednisone after two months.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "stopped",
+          "evidence": "Azathioprine and mesalamine maintained remission for about a year. Then started having severe joint pain.",
+          "certainty": "medium"
+        },
+        {
+          "name": "mesalamine",
+          "status": "stopped",
+          "evidence": "Stopped mesalamine, wasn't really helping.",
+          "certainty": "high"
+        },
+        {
+          "name": "methotrexate",
+          "status": "stopped",
+          "evidence": "Started methotrexate for both conditions. Helped joints but Crohn's flared.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Been on Humira two years.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "discussed",
+          "evidence": "Next step might be Stelara if Humira fails.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Been on Humira two years.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "primary care",
+          "evidence": "Primary care ran basic tests, all normal except elevated CRP.",
+          "certainty": "high"
+        },
+        {
+          "name": "gastroenterologist",
+          "evidence": "Referred to gastroenterologist.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}

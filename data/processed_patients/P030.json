@@ -1,0 +1,100 @@
+{
+  "ledger": {
+    "patient_id": "P030",
+    "call1_status": "success",
+    "call2_status": "skipped",
+    "call3_status": "success",
+    "success": true,
+    "error": null
+  },
+  "record": {
+    "metadata": {
+      "patient_id": "P030",
+      "model_used": "gemini/gemini-3.1-flash-lite",
+      "timestamp": "2026-05-26T15:07:01.741654Z"
+    },
+    "call1": {
+      "churn_detection": {
+        "completeness": "complete",
+        "reasoning": "The narrative concludes with the patient reflecting on their current state of existence and outlook, indicating a natural end to the interview.",
+        "certainty": "high"
+      },
+      "biologic_status": {
+        "on_biologic": "yes",
+        "name": "Humira",
+        "reasoning": "Started Humira six months ago.",
+        "certainty": "high"
+      },
+      "sociodemographics": {
+        "age": {
+          "value": 29,
+          "evidence": "Marcus, 29",
+          "certainty": "high"
+        },
+        "sex": {
+          "value": "male",
+          "evidence": "Male, also dealing with severe depression and ADHD.",
+          "certainty": "high"
+        },
+        "years_with_crohns": {
+          "value": 2.0,
+          "evidence": "diagnosed two years ago",
+          "certainty": "high"
+        }
+      },
+      "treatment_journey": [
+        {
+          "name": "prednisone",
+          "status": "stopped",
+          "evidence": "Started high-dose prednisone. Went from fit to bloated overnight.",
+          "certainty": "high"
+        },
+        {
+          "name": "Mesalamine",
+          "status": "stopped",
+          "evidence": "Tried working through it. Mesalamine, azathioprine, kept pushing.",
+          "certainty": "high"
+        },
+        {
+          "name": "azathioprine",
+          "status": "stopped",
+          "evidence": "Tried working through it. Mesalamine, azathioprine, kept pushing.",
+          "certainty": "high"
+        },
+        {
+          "name": "Humira",
+          "status": "currently_on",
+          "evidence": "Started Humira six months ago. Helps some.",
+          "certainty": "high"
+        },
+        {
+          "name": "Stelara",
+          "status": "discussed",
+          "evidence": "Next appointment discussing Stelara or Entyvio.",
+          "certainty": "high"
+        },
+        {
+          "name": "Entyvio",
+          "status": "discussed",
+          "evidence": "Next appointment discussing Stelara or Entyvio.",
+          "certainty": "high"
+        }
+      ]
+    },
+    "call2": null,
+    "call3": {
+      "pathway_endpoint": {
+        "status": "on_biologic",
+        "reasoning": "Started Humira six months ago.",
+        "certainty": "high"
+      },
+      "referral_pathway": [
+        {
+          "name": "doctor",
+          "evidence": "Finally saw doctor after collapsing at work.",
+          "certainty": "high"
+        }
+      ]
+    }
+  }
+}
